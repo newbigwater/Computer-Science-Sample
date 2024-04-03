@@ -14,14 +14,14 @@ namespace GettingStartedHost
         static void Main(string[] args)
         {
             // Step 1: Create a URI to serve as the base address.
-            Uri baseAddress = new Uri("http://localhost:8080/GettingStarted/CalculatorService");
+            Uri baseAddress = new Uri("http://localhost:8080/Service/Calculator");
 
             ServiceHost selfHost = new ServiceHost(typeof(CalculatorService), baseAddress);
 
             try
             {
                 // Step 3: Add a service endpoint.
-                selfHost.AddServiceEndpoint(typeof(ICalculator), new WSHttpBinding(), "CalculatorService");
+                selfHost.AddServiceEndpoint(typeof(ICalculator), new BasicHttpBinding(), "CalculatorService");
 
                 // Step 4: Enable metadata exchange.
                 ServiceMetadataBehavior smb = new ServiceMetadataBehavior();

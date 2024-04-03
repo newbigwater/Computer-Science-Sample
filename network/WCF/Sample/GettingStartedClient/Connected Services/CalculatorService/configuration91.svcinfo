@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="CWBmzaCfsrdgLRoK+fB29mg5UBj2sEUlmlSEv7JIPw4=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="7LkAO+VY0TMUnuInJF0121bzkpLkE9EXEH/ZhV+QyrQ=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_ICalculator">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_ICalculator" contract="CalculatorService.ICalculator" bindingType="basicHttpBinding" address="http://localhost:8080/GettingStarted/CalculatorService" bindingConfiguration="BasicHttpBinding_ICalculator">
+    <endpoint name="BasicHttpBinding_ICalculator" contract="CalculatorService.ICalculator" bindingType="basicHttpBinding" address="http://localhost:8080/Service/Calculator/CalculatorService" bindingConfiguration="BasicHttpBinding_ICalculator">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://localhost:8080/GettingStarted/CalculatorService</serializedValue>
+          <serializedValue>http://localhost:8080/Service/Calculator/CalculatorService</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
