@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34601.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMListenerApplication", "CMListenerApplication\CMListenerApplication.csproj", "{92FC9FB7-E1D1-4DEE-8FEE-23B224D96E1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMSenderApplication", "CMSenderApplication\CMSenderApplication.csproj", "{CB27A115-2F61-4FA3-A3E1-8C2BFEA12EE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92FC9FB7-E1D1-4DEE-8FEE-23B224D96E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FC9FB7-E1D1-4DEE-8FEE-23B224D96E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FC9FB7-E1D1-4DEE-8FEE-23B224D96E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FC9FB7-E1D1-4DEE-8FEE-23B224D96E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB27A115-2F61-4FA3-A3E1-8C2BFEA12EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB27A115-2F61-4FA3-A3E1-8C2BFEA12EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB27A115-2F61-4FA3-A3E1-8C2BFEA12EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB27A115-2F61-4FA3-A3E1-8C2BFEA12EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CFE34AA-4F42-4769-A267-BBDF6FEB2320}
+	EndGlobalSection
+EndGlobal
