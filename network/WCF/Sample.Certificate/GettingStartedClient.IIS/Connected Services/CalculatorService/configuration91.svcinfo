@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="aVQKOjUfUpXFLLywKXXB0/ZRVBOiWqiCNkPHUqx2fBs=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="Vr7YdR1Nz7/qh2xNh99/3tM8Ixxvr6V+Mf27GIDHsxk=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="wsHttpBinding" name="WSHttpBinding_ICalculator">
       <properties>
@@ -127,10 +127,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="WSHttpBinding_ICalculator" contract="CalculatorService.ICalculator" bindingType="wsHttpBinding" address="http://localhost:8081/GettingStarted/CalculatorService" bindingConfiguration="WSHttpBinding_ICalculator">
+    <endpoint name="WSHttpBinding_ICalculator" contract="CalculatorService.ICalculator" bindingType="wsHttpBinding" address="http://localhost:8080/GettingStarted/CalculatorService" bindingConfiguration="WSHttpBinding_ICalculator">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://localhost:8081/GettingStarted/CalculatorService</serializedValue>
+          <serializedValue>http://localhost:8080/GettingStarted/CalculatorService</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -168,8 +168,8 @@
         <property path="/identity/dns" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.DnsElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.DnsElement</serializedValue>
         </property>
-        <property path="/identity/dns/value" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue />
+        <property path="/identity/dns/value" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <serializedValue>www.newbigwater.com</serializedValue>
         </property>
         <property path="/identity/rsa" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.RsaElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.RsaElement</serializedValue>
@@ -180,8 +180,8 @@
         <property path="/identity/certificate" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.CertificateElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.CertificateElement</serializedValue>
         </property>
-        <property path="/identity/certificate/encodedValue" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>AwAAAAEAAAAUAAAAjvbN2SwUq9LziXTKH1wb/fq6PiQgAAAAAQAAADoFAAAwggU2MIIDHqADAgECAhB0AkMNT1/7kkBqu1t2aFEZMA0GCSqGSIb3DQEBBQUAMB4xHDAaBgNVBAMME3d3dy5uZXdiaWd3YXRlci5jb20wHhcNMjQwNDA1MDczMTI2WhcNMzQwNDA1MDc0MTI1WjAeMRwwGgYDVQQDDBN3d3cubmV3Ymlnd2F0ZXIuY29tMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA22w0bJsndpb/OVn+iTyJHjAsVj+yr0Kr+b5dP1YW8af8i14YBaPwwvnPx1gN1IkjJmJcLMjMr3tVHoPAfxPPizbhhj02EjN1SNwmffX9wGcoJtZFaLsG2OSXU2N8SmHi9Tkb+1/UFwYnbPQ6SjD+x6TL5lI2CGUqSLS7gtyiiJYDvhEXrOF6lVQjw2E6Ljsua3qzHwObdLioxkAA8hbcF4rqbjj0skOQFSqE4MxOfHXLTo+rWWMwfZENQYV3e9OyIaoPrQk6yOuTLQw18L8yBsumMlmdqIpZSy70ZyIAIeLYRgn4Eu/g7EHtzUAWROG60TPT8Ad8xkBQIl6zzNQdwe3IJx9ex4n1iLqmc0NMpPGJQLPmTS86IC3RwCEID46LvkNdL2YYzFNq3N8InjlYc0sQQCZU7wyCnzXw1jdNSFqC2e9flY/UpiRNrn+Kd9RLXed2n+1Q4On+UlYPP/rBFG6f7OTGYOGcKQhTTo/PF2h2vblSrYCdHZfLntXPJFPsc8oAOWKNWzDzdaI4gS6XZ26gxmTfshOoSMH7L9rpg4deZl0U6shjClhTqm8utKnV+8DpKOSALajYx4IxOEBox3WIwZZGGZgn/d54dPnIVdWY86L9z4t1reJX3x2mxb/jIa1vM6814kn79nzwHULhx/lDdCBnl4mvFfy4LLMCecUCAwEAAaNwMG4wDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATAeBgNVHREEFzAVghN3d3cubmV3Ymlnd2F0ZXIuY29tMB0GA1UdDgQWBBQgcrDZjmuZSPJe3ywelnBNCE3eQjANBgkqhkiG9w0BAQUFAAOCAgEAji9OdgpzX6aSEUV6sbGB9yz4y2lJyeGUK9HwyxWYy9ZVTeg7Giu2T1zqvwa7sxlXIvj5CkVHQrGsrAsU4YvvfKdFZtDk2Ljl2h2XmOxI/ZwneBe7SUaHuauldlhm07bt1Xq9hNcGuXRDrLISyWAiSqq2O8Ix2Gn3QuJI0gn9nWZQYow1e9n4YsOpM8zYbObJyAVF7xySf9ei+507tqKCKcJCENlsFTxdadQPRXUiIARlONQb0U//ZI8vx6acqdGJYdr8WA6FVYcBXfwA9X2vfiKerVzdJ2fd1DJvXomHITkbznjrwYN7UIJ+yJvYi3Vg1LseW4RMVew/4rrLH6jUm0XmrwCxebB9OatLNx1GC9P9+VTVWCKQHjdfbglFvgADknbfW59Etd5WMmBU1IM4vTDxjTtbp0eUSUbum3FYvd/k5o2+AKT2vDcqH+vG+lY35OMLk7CYD9rKlUePbw9ARcx166nINS0bOfFPermY698t8YxrJFuamYRnALjR+a96QsrszgmeyNJZDvOQji/nrUXt2FZla/E1gf53JyM1BuPaUqPzJc6oWdge2A+zgAXXTjnzUdvkXv+xTHV10iBE6UVIiRTUcjLJ6Ax1nLTN+bisz1ZWIzoBGjMN79gPadAgvPj+/3m2FqllYJlTejoZ/mSxa5q05rIahDZ+mW/addg=</serializedValue>
+        <property path="/identity/certificate/encodedValue" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <serializedValue />
         </property>
         <property path="/identity/certificateReference" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.CertificateReferenceElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.CertificateReferenceElement</serializedValue>

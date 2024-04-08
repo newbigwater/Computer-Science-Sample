@@ -24,7 +24,7 @@ namespace GettingStartedClient
             client.ClientCredentials.ClientCertificate.SetCertificate(
                 System.Security.Cryptography.X509Certificates.StoreLocation.LocalMachine,
                 System.Security.Cryptography.X509Certificates.StoreName.My,
-                System.Security.Cryptography.X509Certificates.X509FindType.FindByThumbprint, "8EF6CDD92C14ABD2F38974CA1F5C1BFDFABA3E24");
+                System.Security.Cryptography.X509Certificates.X509FindType.FindByThumbprint, "5619207BCAFC85D7D2FEC7A621458A9CBA863C3A");
         }
 
         private void btn_add_Click(object sender, EventArgs e)
