@@ -20,11 +20,6 @@ namespace GettingStartedClient
         {
             InitializeComponent();
             client = new CalculatorClient();
-
-            client.ClientCredentials.ClientCertificate.SetCertificate(
-                System.Security.Cryptography.X509Certificates.StoreLocation.LocalMachine,
-                System.Security.Cryptography.X509Certificates.StoreName.My,
-                System.Security.Cryptography.X509Certificates.X509FindType.FindByThumbprint, "8EF6CDD92C14ABD2F38974CA1F5C1BFDFABA3E24");
         }
 
         private void btn_add_Click(object sender, EventArgs e)

@@ -15,28 +15,22 @@ namespace GettingStartedHost
         static void Main(string[] args)
         {
             // Step 1: Create a URI to serve as the base address.
-            Uri baseAddress = new Uri("http://localhost:8081/GettingStarted/CalculatorService");
+            Uri baseAddress = new Uri("http://localhost:8080/GettingStarted/CalculatorService");
 
             ServiceHost selfHost = new ServiceHost(typeof(CalculatorService), baseAddress);
 
             try
             {
-                WSHttpBinding binding = new WSHttpBinding();
-                binding.Security.Mode = SecurityMode.Message;
-                binding.Security.Message.ClientCredentialType = MessageCredentialType.Certificate;
+                BasicHttpBinding bsHttpBinding = new BasicHttpBinding();
 
                 // Step 3: Add a service endpoint.
-                selfHost.AddServiceEndpoint(typeof(ICalculator), binding, "");
+                selfHost.AddServiceEndpoint(typeof(ICalculator), bsHttpBinding, "");
 
                 // Step 4: Enable metadata exchange.
                 ServiceMetadataBehavior smb = new ServiceMetadataBehavior();
                 smb.HttpGetEnabled = true;
+                smb.HttpsGetEnabled = true;
                 selfHost.Description.Behaviors.Add(smb);
-
-                selfHost.Credentials.ServiceCertificate.SetCertificate(
-                    System.Security.Cryptography.X509Certificates.StoreLocation.LocalMachine,
-                    System.Security.Cryptography.X509Certificates.StoreName.My,
-                    System.Security.Cryptography.X509Certificates.X509FindType.FindByThumbprint, "8EF6CDD92C14ABD2F38974CA1F5C1BFDFABA3E24");
 
                 // Step 5: Start the service.
                 selfHost.Open();
