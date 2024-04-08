@@ -11,12 +11,26 @@ namespace GettingStartedLib
     public interface ICalculator
     {
         [OperationContract]
-        double Add(double n1, double n2);
+        CalculateResult Add(double n1, double n2);
         [OperationContract]
-        double Subtract(double n1, double n2);
+        CalculateResult Subtract(double n1, double n2);
         [OperationContract]
-        double Multiply(double n1, double n2);
+        CalculateResult Multiply(double n1, double n2);
         [OperationContract]
-        double Divide(double n1, double n2);
+        CalculateResult Divide(double n1, double n2);
     }
+
+    [DataContract] // 형식에 데이터 계약이 있음을 선언
+    public class CalculateResult
+    {
+        private double _resultVal = 0.0;
+
+        [DataMember]
+        public double ResultVal
+        {
+            get { return _resultVal; }
+            set { _resultVal = value; }
+        }
+    }
+
 }

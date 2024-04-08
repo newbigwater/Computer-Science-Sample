@@ -9,35 +9,82 @@
 //------------------------------------------------------------------------------
 
 namespace GettingStartedClient.CalculatorService {
+    using System.Runtime.Serialization;
+    using System;
     
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="CalculateResult", Namespace="http://schemas.datacontract.org/2004/07/GettingStartedLib")]
+    [System.SerializableAttribute()]
+    public partial class CalculateResult : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private double ResultValField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public double ResultVal {
+            get {
+                return this.ResultValField;
+            }
+            set {
+                if ((this.ResultValField.Equals(value) != true)) {
+                    this.ResultValField = value;
+                    this.RaisePropertyChanged("ResultVal");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="CalculatorService.ICalculator")]
     public interface ICalculator {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculator/Add", ReplyAction="http://tempuri.org/ICalculator/AddResponse")]
-        double Add(double n1, double n2);
+        GettingStartedClient.CalculatorService.CalculateResult Add(double n1, double n2);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculator/Add", ReplyAction="http://tempuri.org/ICalculator/AddResponse")]
-        System.Threading.Tasks.Task<double> AddAsync(double n1, double n2);
+        System.Threading.Tasks.Task<GettingStartedClient.CalculatorService.CalculateResult> AddAsync(double n1, double n2);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculator/Subtract", ReplyAction="http://tempuri.org/ICalculator/SubtractResponse")]
-        double Subtract(double n1, double n2);
+        GettingStartedClient.CalculatorService.CalculateResult Subtract(double n1, double n2);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculator/Subtract", ReplyAction="http://tempuri.org/ICalculator/SubtractResponse")]
-        System.Threading.Tasks.Task<double> SubtractAsync(double n1, double n2);
+        System.Threading.Tasks.Task<GettingStartedClient.CalculatorService.CalculateResult> SubtractAsync(double n1, double n2);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculator/Multiply", ReplyAction="http://tempuri.org/ICalculator/MultiplyResponse")]
-        double Multiply(double n1, double n2);
+        GettingStartedClient.CalculatorService.CalculateResult Multiply(double n1, double n2);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculator/Multiply", ReplyAction="http://tempuri.org/ICalculator/MultiplyResponse")]
-        System.Threading.Tasks.Task<double> MultiplyAsync(double n1, double n2);
+        System.Threading.Tasks.Task<GettingStartedClient.CalculatorService.CalculateResult> MultiplyAsync(double n1, double n2);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculator/Divide", ReplyAction="http://tempuri.org/ICalculator/DivideResponse")]
-        double Divide(double n1, double n2);
+        GettingStartedClient.CalculatorService.CalculateResult Divide(double n1, double n2);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculator/Divide", ReplyAction="http://tempuri.org/ICalculator/DivideResponse")]
-        System.Threading.Tasks.Task<double> DivideAsync(double n1, double n2);
+        System.Threading.Tasks.Task<GettingStartedClient.CalculatorService.CalculateResult> DivideAsync(double n1, double n2);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -67,35 +114,35 @@ namespace GettingStartedClient.CalculatorService {
                 base(binding, remoteAddress) {
         }
         
-        public double Add(double n1, double n2) {
+        public GettingStartedClient.CalculatorService.CalculateResult Add(double n1, double n2) {
             return base.Channel.Add(n1, n2);
         }
         
-        public System.Threading.Tasks.Task<double> AddAsync(double n1, double n2) {
+        public System.Threading.Tasks.Task<GettingStartedClient.CalculatorService.CalculateResult> AddAsync(double n1, double n2) {
             return base.Channel.AddAsync(n1, n2);
         }
         
-        public double Subtract(double n1, double n2) {
+        public GettingStartedClient.CalculatorService.CalculateResult Subtract(double n1, double n2) {
             return base.Channel.Subtract(n1, n2);
         }
         
-        public System.Threading.Tasks.Task<double> SubtractAsync(double n1, double n2) {
+        public System.Threading.Tasks.Task<GettingStartedClient.CalculatorService.CalculateResult> SubtractAsync(double n1, double n2) {
             return base.Channel.SubtractAsync(n1, n2);
         }
         
-        public double Multiply(double n1, double n2) {
+        public GettingStartedClient.CalculatorService.CalculateResult Multiply(double n1, double n2) {
             return base.Channel.Multiply(n1, n2);
         }
         
-        public System.Threading.Tasks.Task<double> MultiplyAsync(double n1, double n2) {
+        public System.Threading.Tasks.Task<GettingStartedClient.CalculatorService.CalculateResult> MultiplyAsync(double n1, double n2) {
             return base.Channel.MultiplyAsync(n1, n2);
         }
         
-        public double Divide(double n1, double n2) {
+        public GettingStartedClient.CalculatorService.CalculateResult Divide(double n1, double n2) {
             return base.Channel.Divide(n1, n2);
         }
         
-        public System.Threading.Tasks.Task<double> DivideAsync(double n1, double n2) {
+        public System.Threading.Tasks.Task<GettingStartedClient.CalculatorService.CalculateResult> DivideAsync(double n1, double n2) {
             return base.Channel.DivideAsync(n1, n2);
         }
     }

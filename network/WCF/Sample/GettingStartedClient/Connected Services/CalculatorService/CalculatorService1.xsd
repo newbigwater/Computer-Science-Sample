@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8080/GettingStarted/CalculatorService?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/GettingStartedLib" />
   <xs:element name="Add">
     <xs:complexType>
       <xs:sequence>
@@ -11,7 +12,7 @@
   <xs:element name="AddResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="AddResult" type="xs:double" />
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/GettingStartedLib" minOccurs="0" name="AddResult" nillable="true" type="q1:CalculateResult" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -26,7 +27,7 @@
   <xs:element name="SubtractResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="SubtractResult" type="xs:double" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/GettingStartedLib" minOccurs="0" name="SubtractResult" nillable="true" type="q2:CalculateResult" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -41,7 +42,7 @@
   <xs:element name="MultiplyResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="MultiplyResult" type="xs:double" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/GettingStartedLib" minOccurs="0" name="MultiplyResult" nillable="true" type="q3:CalculateResult" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -56,7 +57,7 @@
   <xs:element name="DivideResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="DivideResult" type="xs:double" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/GettingStartedLib" minOccurs="0" name="DivideResult" nillable="true" type="q4:CalculateResult" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
