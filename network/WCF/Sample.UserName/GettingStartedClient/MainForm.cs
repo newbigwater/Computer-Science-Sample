@@ -21,8 +21,8 @@ namespace GettingStartedClient
             InitializeComponent();
             client = new CalculatorClient();
 
-            client.ClientCredentials.UserName.UserName = "test";
-            client.ClientCredentials.UserName.Password = "test";
+            client.ClientCredentials.UserName.UserName = "THiRA";
+            client.ClientCredentials.UserName.Password = "UTECH";
         }
 
         private void btn_add_Click(object sender, EventArgs e)

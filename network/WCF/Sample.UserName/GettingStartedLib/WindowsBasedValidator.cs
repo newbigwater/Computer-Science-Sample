@@ -13,12 +13,12 @@ namespace GettingStartedLib
     {
         public override void Validate(string userName, string password)
         {
-            if (userName == "test" && password == "test")
+            if (userName == "THiRA" && password == "UTECH")
             {
                 return;
             }
 
-            throw new FaultException("Test account can be authenticated ONLY.");
+            throw new FaultException("THiRA account can be authenticated ONLY.");
         }
     }
 }
