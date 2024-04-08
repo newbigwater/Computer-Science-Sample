@@ -72,13 +72,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Connected Services\CalculatorService\Calculator.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\CalculatorService\Calculator1.xsd">
-      <SubType>Designer</SubType>
-    </None>
     <None Include="Connected Services\CalculatorService\CalculatorService.wsdl" />
+    <None Include="Connected Services\CalculatorService\CalculatorService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\CalculatorService\CalculatorService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -99,7 +99,7 @@
     <WCFMetadataStorage Include="Connected Services\CalculatorService\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\CalculatorService\Calculator.disco" />
+    <None Include="Connected Services\CalculatorService\CalculatorService.disco" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\CalculatorService\configuration91.svcinfo" />

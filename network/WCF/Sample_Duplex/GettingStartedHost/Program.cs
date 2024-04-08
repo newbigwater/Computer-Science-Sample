@@ -14,7 +14,7 @@ namespace GettingStartedHost
         static void Main(string[] args)
         {
             // Step 1: Create a URI to serve as the base address.
-            Uri baseAddress = new Uri("http://localhost:8080/Service/Calculator");
+            Uri baseAddress = new Uri("http://localhost:8080/GettingStarted/CalculatorService");
 
             ServiceHost selfHost = new ServiceHost(typeof(CalculatorService), baseAddress);
 
