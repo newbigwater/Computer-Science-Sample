@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CalculatorService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CalculatorService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsp:Policy wsu:Id="WSHttpBinding_ICalculator_policy">
     <wsp:ExactlyOne>
       <wsp:All>
@@ -259,8 +259,8 @@
   </wsp:Policy>
   <wsdl:types>
     <xsd:schema targetNamespace="http://tempuri.org/Imports">
-      <xsd:import schemaLocation="http://localhost:8081/GettingStarted/CalculatorService?xsd=xsd0" namespace="http://tempuri.org/" />
-      <xsd:import schemaLocation="http://localhost:8081/GettingStarted/CalculatorService?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8080/GettingStarted/CalculatorService?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8080/GettingStarted/CalculatorService?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
     </xsd:schema>
   </wsdl:types>
   <wsdl:message name="ICalculator_Add_InputMessage">
@@ -355,15 +355,11 @@
   </wsdl:binding>
   <wsdl:service name="CalculatorService">
     <wsdl:port name="WSHttpBinding_ICalculator" binding="tns:WSHttpBinding_ICalculator">
-      <soap12:address location="http://localhost:8081/GettingStarted/CalculatorService" />
+      <soap12:address location="http://localhost:8080/GettingStarted/CalculatorService" />
       <wsa10:EndpointReference>
-        <wsa10:Address>http://localhost:8081/GettingStarted/CalculatorService</wsa10:Address>
+        <wsa10:Address>http://localhost:8080/GettingStarted/CalculatorService</wsa10:Address>
         <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
-          <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
-            <X509Data>
-              <X509Certificate>MIIFNjCCAx6gAwIBAgIQGRCemQvQzZhNCw1ZMtuB0zANBgkqhkiG9w0BAQUFADAeMRwwGgYDVQQDDBN3d3cubmV3Ymlnd2F0ZXIuY29tMB4XDTI0MDQwODA3MTUyMloXDTM0MDQwODA3MjUyMlowHjEcMBoGA1UEAwwTd3d3Lm5ld2JpZ3dhdGVyLmNvbTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAKzTvSHb2V7MYVCaxD7nrOMIogY6AphOF+L2BMT4S2QEYWeQZYSCEf41uj9UvO2pBnG0Vi6XAlRPYogNXWFdanj8WwPm0K++5obAQZpCk4v7LR7scoN2Uh00ZJZAyWSns1b+3b0LCj36a6i8yxe9IWgxH8kmAD+f4Hgggb1AEnrYNtTm0Bm+jSBZUCo+IPudsu69VsW5eOjZDs3w9VAUJmVgAtqYRDO9DmPBpO0oOfWaX9aIDAs1Z4I2chvWrOCH3JaWgkQNBHBchogjUIa35/7zjKu9IzgCO+I8mes4WDbcHon+5dB5rXWu9390hcg9vThGnO39mFxiNiFCyjWBllIq8oOZH77D38zRJ21V235pZ0PiMhieykQ8PKecBkxHSRmv4qeyAR8XoTa+zFLk43aTborg7GtV6ObcDLoOrYPIzMcebk9zm2G47M+3jsQXtgQAkQuTm4GPiq7CLPlTbY9lpAoJDtVMwjIpjvFarWxPUot+LaFWREVe7AfkeSotwnS4I3zi598UuOPB+Ln2XvPRVQJ5oTUuooApq7IDWKpu32fAlNiut3mDXtRSqAN8KUflDasNX9LDNqRcUo8DxnUPIgH8y7vsqmrbQEY88KdN4RtLxy0p8QhG2ZVXbwoGvA2odx1/EUa2edc3YIkZPFllSI1VzX3c5/HScrE5oD8FAgMBAAGjcDBuMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwHgYDVR0RBBcwFYITd3d3Lm5ld2JpZ3dhdGVyLmNvbTAdBgNVHQ4EFgQUCxDouuJSMzbz8hMFF/c5f7Gb7RgwDQYJKoZIhvcNAQEFBQADggIBABmK7YRaQFek//KwsW9cRaoF2BS9H4PrjMfQ4lJEnN6QtHEgVk8Q6/ZmVeqMF9C+Z4WvsPpwZnTng3q9yDVATVrpYco6be/v7M2GkGaOQdo+O+weYT7XPZhmFHreA+j48ZL0g/47RIuQKvRkVusYzxVSohfizT88efn0N0ibxQgAMNNA1BLPcJEwyUfvp7x+js1LTQNl8JB/D/+kBG/10MtghDJh66Q+K6OHi3JLMMVjRcrwP8NM+vrviAgfaK/fT1QzjA2XHkyDt3tPlChWKwP2r9mXXqtIzwLQmJPMBsbuLDwXX+LY3dQHGvqgJH8Wr9UeX5zBV/uX6HqJlSBNkM1DqXY5KSsbN6eT73NM8MpYq5Z1rzkIlTkK4NEVFmo59EkV78gGwYl1s/TnGIH23OaGAUaxH+skKsQ5irS5yhy8qvkTgtzsH1NzSezWbZieuCkpo86+dryR3q9FdrH10pVwk6gy8fHePut8B0s1Hb/icgNdTl4+CMzSwjy3ifk+k/R8+CjMU9G+nV0XreDI9TiRsBC6aWdjyqho+rZgyuuaOFnx2Z+NbS2iqpWWoLX+u8NOlQU+pbdIeEol2IPP7nzl9ACB6/97FboNJTub2h+S3JdmCyDZq/PWZjhVVqZmZIwwnfxU95zZwW94f32yBtdwMH62h/I+SdmptwBY5V/C</X509Certificate>
-            </X509Data>
-          </KeyInfo>
+          <Dns>www.newbigwater.com</Dns>
         </Identity>
       </wsa10:EndpointReference>
     </wsdl:port>
