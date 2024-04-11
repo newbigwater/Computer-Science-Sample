@@ -265,7 +265,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
                 "mode": "source",
                 "source": false
               }
@@ -338,7 +338,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -355,7 +355,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -378,7 +378,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md"
               }
             }
           }
@@ -403,6 +403,11 @@
   },
   "active": "3c4bb1dd925e6604",
   "lastOpenFiles": [
+    "network/WCF/MS - 시작 자습서/03. WCF 서비스 Client.md",
+    "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
+    "network/WCF/MS - 시작 자습서/01. WCF 서비스 계약 인터페이스 정의 및 구현.md",
+    "network/WCF/MS - 시작 자습서/00. WCF 개념.md",
+    "README.md",
     "IDE/WorkflowDesigner/readme.md",
     "IDE/WorkflowDesigner/WorkflowDesignerApp.sln",
     "IDE/WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/Properties/Settings.settings",
@@ -415,7 +420,6 @@
     "IDE/WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/Properties",
     "IDE/WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/App.xaml.cs",
     "UI/UI.md",
-    "README.md",
     "Secure/Secure.md",
     "Secure/New-SelfSignedCertificate/New-SelfSignedCertificate.md",
     "network/WCF/WCF.md",
@@ -434,13 +438,9 @@
     "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311144309.png",
     "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311144520.png",
     "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311150752.png",
-    "network/WCF/MS - 시작 자습서/00. WCF 개념.md",
     "Secure/New-SelfSignedCertificate/attachments/Pasted image 20240405163434.png",
     "Secure/New-SelfSignedCertificate/attachments/Pasted image 20240405163408.png",
     "Secure/New-SelfSignedCertificate/attachments/Pasted image 20240405163055.png",
-    "network/WCF/MS - 시작 자습서/03. WCF 서비스 Client.md",
-    "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
-    "network/WCF/MS - 시작 자습서/01. WCF 서비스 계약 인터페이스 정의 및 구현.md",
     "Computer Science/Programming/UI/C#/WPF/Prism/Part 02.md",
     "Computer Science/Network/Framework/WCF/MS - 시작 자습서/03. WCF 서비스 Client.md",
     "Computer Science/Programming/UI/C#/WPF/Prism/Prism Library를 사용하는 개발자를 위한 안내.canvas",
