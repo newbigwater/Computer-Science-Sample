@@ -10,8 +10,8 @@
 
 ## 01. Ready
 ### 01.01. 테스트 프로그램 준비
-![[Pasted image 20240401144745.png](attachments/Pasted%20image%2020240401144745.png)
-![[Pasted image 20240401144319.png](attachments/Pasted%20image%2020240401144319.png)
+![Pasted image 20240401144745.png](attachments/Pasted%20image%2020240401144745.png)
+![Pasted image 20240401144319.png](attachments/Pasted%20image%2020240401144319.png)
 
 > [!danger] 중요!
 > 모든 프로젝트는 Release Mode에서 빌드가 에러 없이 되어야 한다.
@@ -92,20 +92,20 @@ public partial class MainForm : Form
 }
 ```
 - Output 경로 통합
-	- .csprj![[Pasted image 20240401144917.png](attachments/Pasted%20image%2020240401144917.png)
+	- .csprj![Pasted image 20240401144917.png](attachments/Pasted%20image%2020240401144917.png)
 ### 01.02. Microsoft Visual Studio Installer Project
 - 확장 -> 확장 관리 -> 온라인 -> Installer Projects 설치
-	![[Pasted image 20240401144127.png](attachments/Pasted%20image%2020240401144127.png)
+	![Pasted image 20240401144127.png](attachments/Pasted%20image%2020240401144127.png)
 - 솔루션 -> 추가 -> 새 프로젝트 -> Setup Project
-	![[Pasted image 20240401145222.png](attachments/Pasted%20image%2020240401145222.png)
+	![Pasted image 20240401145222.png](attachments/Pasted%20image%2020240401145222.png)
 ## 02. Configuration
-![[Pasted image 20240401150118.png](attachments/Pasted%20image%2020240401150118.png)
+![Pasted image 20240401150118.png](attachments/Pasted%20image%2020240401150118.png)
 - Application Folder : 프로그램이 설치되었을 때 필요한 파일들이 들어가는 폴더
 - User's Desktop : 바탕 화면
 - User's Programs Menu : 시작 메뉴
 ### 02.01. Description
 - Set-up 속성
-	![[Pasted image 20240401160351.png](attachments/Pasted%20image%2020240401160351.png)
+	![Pasted image 20240401160351.png](attachments/Pasted%20image%2020240401160351.png)
 	- Author
 	- Manufacturer
 		- 제조사 명
@@ -113,10 +113,10 @@ public partial class MainForm : Form
 	- ProductName
 	- Title
 - File System on Target Machine
-	![[Pasted image 20240401151935.png](attachments/Pasted%20image%2020240401151935.png)
+	![Pasted image 20240401151935.png](attachments/Pasted%20image%2020240401151935.png)
 	- Application Folder
 		> 프로그램이 설치되었을 때 필요한 파일들이 들어가는 폴더
-		![[Pasted image 20240401152115.png](attachments/Pasted%20image%2020240401152115.png)
+		![Pasted image 20240401152115.png](attachments/Pasted%20image%2020240401152115.png)
 		- DefaultLocation
 			- [ProgramFilesFolder] : 설치할 경로
 			- [Manufacturer] : 항목은 Set-up에서 설정한 정보가 설정된다.
@@ -141,42 +141,42 @@ public partial class MainForm : Form
 ### 02.02. Set-up File 설정
 - 프로젝트 출력
 	- 해당 산출물에 참조하는 Library가 있을 경우 자동 추가됨
-	![[Pasted image 20240401153105.png](attachments/Pasted%20image%2020240401153105.png)
-	![[Pasted image 20240401153158.png](attachments/Pasted%20image%2020240401153158.png)
-	![[Pasted image 20240401153313.png](attachments/Pasted%20image%2020240401153313.png)
+	![Pasted image 20240401153105.png](attachments/Pasted%20image%2020240401153105.png)
+	![Pasted image 20240401153158.png](attachments/Pasted%20image%2020240401153158.png)
+	![Pasted image 20240401153313.png](attachments/Pasted%20image%2020240401153313.png)
 	- 이미지와 같이 CalculatorLib.dll을 참조하니 자동 추가됨
 - 어셈블리
 	- 개별적 추가 시에는 종속성을 생각하며 추가 한다.
-	![[Pasted image 20240401152913.png](attachments/Pasted%20image%2020240401152913.png)
-	![[Pasted image 20240401153027.png](attachments/Pasted%20image%2020240401153027.png)
+	![Pasted image 20240401152913.png](attachments/Pasted%20image%2020240401152913.png)
+	![Pasted image 20240401153027.png](attachments/Pasted%20image%2020240401153027.png)
 - 조건부 File Setting
 	- User Interface 추가
 		- 조건을 입력 받을 공간 마련
 			- UI 추가
-				![[Pasted image 20240402115851.png](attachments/Pasted%20image%2020240402115851.png)
+				![Pasted image 20240402115851.png](attachments/Pasted%20image%2020240402115851.png)
 			- 변수 설정
-				![[Pasted image 20240402115944.png](attachments/Pasted%20image%2020240402115944.png)
+				![Pasted image 20240402115944.png](attachments/Pasted%20image%2020240402115944.png)
 				- Edit4Property = 변수명
 			- 조건 설정
 				- 다중 설정 파일
-					![[Pasted image 20240402130827.png](attachments/Pasted%20image%2020240402130827.png)
+					![Pasted image 20240402130827.png](attachments/Pasted%20image%2020240402130827.png)
 				- 설정 파일 마다 Condition 설정
-					![[Pasted image 20240402130816.png](attachments/Pasted%20image%2020240402130816.png)
+					![Pasted image 20240402130816.png](attachments/Pasted%20image%2020240402130816.png)
 ## 03. Environment
 ### 03.01. Set-up Project Environment
-![[Pasted image 20240401162531.png](attachments/Pasted%20image%2020240401162531.png)
+![Pasted image 20240401162531.png](attachments/Pasted%20image%2020240401162531.png)
 - Output file name : set-up file 생성 경로
 - Package Files : Packege 생성 타입
-	![[Pasted image 20240401162738.png](attachments/Pasted%20image%2020240401162738.png)
+	![Pasted image 20240401162738.png](attachments/Pasted%20image%2020240401162738.png)
 - Prerequirsites : 필수 구성 요소
-	![[Pasted image 20240401162835.png](attachments/Pasted%20image%2020240401162835.png)
+	![Pasted image 20240401162835.png](attachments/Pasted%20image%2020240401162835.png)
 ### 03.02. Launch Conditions
-![[Pasted image 20240408135331.png](attachments/Pasted%20image%2020240408135331.png)
-![[Pasted image 20240408135400.png](attachments/Pasted%20image%2020240408135400.png)
-![[Pasted image 20240408135432.png](attachments/Pasted%20image%2020240408135432.png)
+![Pasted image 20240408135331.png](attachments/Pasted%20image%2020240408135331.png)
+![Pasted image 20240408135400.png](attachments/Pasted%20image%2020240408135400.png)
+![Pasted image 20240408135432.png](attachments/Pasted%20image%2020240408135432.png)
 ## 04. 테스트
-![[Pasted image 20240401162916.png](attachments/Pasted%20image%2020240401162916.png)
-![[Pasted image 20240401162944.png](attachments/Pasted%20image%2020240401162944.png)
+![Pasted image 20240401162916.png](attachments/Pasted%20image%2020240401162916.png)
+![Pasted image 20240401162944.png](attachments/Pasted%20image%2020240401162944.png)
 - C:\Program Files (x86)\CALCULATOR FACTORY\CALCULATOR\
-![[Pasted image 20240401163007.png](attachments/Pasted%20image%2020240401163007.png)
-![[Pasted image 20240401163044.png](attachments/Pasted%20image%2020240401163044.png)
+![Pasted image 20240401163007.png](attachments/Pasted%20image%2020240401163007.png)
+![Pasted image 20240401163044.png](attachments/Pasted%20image%2020240401163044.png)
