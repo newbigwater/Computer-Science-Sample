@@ -10,9 +10,9 @@ System.Activities.Presentation.WorkflowDesigner를 표출하는 WPF 어플리케
 
 ## 프로젝트 설명
 ### 01.WorkflowDesignerApp
-*Workflow Designer 재호스팅* 문서 기반 프로젝트
+- *Workflow Designer 재호스팅* 문서 기반 프로젝트
 
-좌측 Toolbox, 중앙 WorkflowDesigner, 우측 PropertyGrid로 구성
+- 좌측 Toolbox, 중앙 WorkflowDesigner, 우측 PropertyGrid로 구성
 ### 02.MyEditorServiceApp
 *사용자 지정 식 편집기 사용* 문서 기반 프로젝트
 
