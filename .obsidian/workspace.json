@@ -193,14 +193,50 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "network/Network.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb37baeca4817b41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "network/SOAP/SOAP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2969a1ef9190ffa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network/Network.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e360540a046c7b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network/WCF/WCF.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -266,7 +302,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "network/SOAP/SOAP.md",
+                "file": "network/WCF/WCF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "network/SOAP/SOAP.md",
+                "file": "network/WCF/WCF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +342,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "network/SOAP/SOAP.md"
+                "file": "network/WCF/WCF.md"
               }
             }
           }
@@ -329,14 +365,14 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "be1bba51ceb5724d",
+  "active": "4e360540a046c7b4",
   "lastOpenFiles": [
+    "network/Network.md",
+    "network/SOAP/SOAP.md",
+    "README.md",
     "network/SOAP/Soap Simple Server/01. SOAP Sample.md",
     "network/SOAP/Soap Simple Server/00. SOAP 개념.md",
     "IDE/Installer Projects/Installer Projects.md",
-    "network/SOAP/SOAP.md",
-    "network/Network.md",
-    "README.md",
     "IDE/IDE.md",
     "database/Database.md",
     "network/WCF/WCF.md",
