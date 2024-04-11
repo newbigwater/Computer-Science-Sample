@@ -13,13 +13,194 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "network/SOAP/Soap Simple Server/00. SOAP 개념.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1827b368f07ce0a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network/SOAP/SOAP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c4ac1bba2601d08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "database/Database.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5efb5bd3cd5cf2c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IDE/IDE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4500216da97ab1d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IDE/Installer Projects/Installer Projects.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b8980dd1c3d008a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IDE/Installer Projects/Installer Projects.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6aca304edbe2fbf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IDE/Installer Projects/Installer Projects.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b950e8874d71e13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IDE/IDE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "14adb2c5994d9e4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network/Network.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cde6f04209324bec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network/SOAP/SOAP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e7aaeea45e0ae170",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network/SOAP/Soap Simple Server/01. SOAP Sample.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e12cb29403d5a7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network/SOAP/Soap Simple Server/01. SOAP Sample.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "283ffbfdd4d62b87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network/SOAP/SOAP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85ac2a279c759554",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network/SOAP/Soap Simple Server/00. SOAP 개념.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a64ab813da495753",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network/SOAP/SOAP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be1bba51ceb5724d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network/SOAP/Soap Simple Server/01. SOAP Sample.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -85,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "network/SOAP/Soap Simple Server/01. SOAP Sample.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "network/SOAP/Soap Simple Server/01. SOAP Sample.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "network/SOAP/Soap Simple Server/01. SOAP Sample.md"
               }
             }
           }
@@ -148,26 +329,45 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "945e4a8bf4fe7592",
+  "active": "be1bba51ceb5724d",
   "lastOpenFiles": [
+    "network/SOAP/SOAP.md",
+    "network/SOAP/Soap Simple Server/00. SOAP 개념.md",
+    "network/SOAP/Soap Simple Server/01. SOAP Sample.md",
+    "network/Network.md",
+    "README.md",
+    "IDE/IDE.md",
+    "IDE/Installer Projects/Installer Projects.md",
+    "database/Database.md",
+    "network/WCF/WCF.md",
+    "network/SOAP/00. SOAP 개념.md",
+    "network/SOAP/Soap Simple Server/soapSimple/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.exe",
+    "network/SOAP/Soap Simple Server/soapSimple/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Reflection.Metadata.dll",
+    "network/SOAP/Soap Simple Server/soapSimple/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Runtime.InteropServices.RuntimeInformation.dll",
+    "network/SOAP/Soap Simple Server/soapSimple/soapClient/obj/Debug/TempPE/Connected Services.ServiceReference1.Reference.cs.dll",
+    "network/SOAP/Soap Simple Server/soapSimple/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/VBCSCompiler.exe.config",
+    "network/SOAP/Soap Simple Server/soapSimple/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/VBCSCompiler.exe",
+    "network/SOAP/Soap Simple Server/soapSimple/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.rsp",
+    "network/SOAP/Soap Simple Server/soapSimple/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.exe.config",
+    "network/SOAP/Soap Simple Server/soapSimple/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Xml.XPath.XDocument.dll",
+    "network/SOAP/Soap Simple Server/soapSimple/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/web.config.install.xdt",
+    "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311155720.png",
+    "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311155639.png",
+    "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311155629.png",
+    "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311155728.png",
+    "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311144309.png",
+    "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311144520.png",
+    "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311150752.png",
+    "UI/UI.md",
+    "Secure/Secure.md",
+    "network/WCF/MS - 시작 자습서/00. WCF 개념.md",
+    "Secure/New-SelfSignedCertificate/attachments/Pasted image 20240405163434.png",
+    "Secure/New-SelfSignedCertificate/attachments/Pasted image 20240405163408.png",
+    "Secure/New-SelfSignedCertificate/attachments/Pasted image 20240405163055.png",
+    "Secure/New-SelfSignedCertificate/New-SelfSignedCertificate.md",
     "network/WCF/MS - 시작 자습서/03. WCF 서비스 Client.md",
     "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
-    "network/WCF/MS - 시작 자습서/00. WCF 개념.md",
     "network/WCF/MS - 시작 자습서/01. WCF 서비스 계약 인터페이스 정의 및 구현.md",
-    "README.md",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240408175811.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240401111918.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240401111630.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240401111517.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240401110932.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240401102907.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240401102740.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240401101930.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240401101754.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240401101444.png",
-    "network/WCF/MS - 시작 자습서/attachments",
-    "network/WCF/MS - 시작 자습서",
-    "Computer Science/Programming/UI/C#/WPF/Prism/attachments",
     "Computer Science/Programming/UI/C#/WPF/Prism/Part 02.md",
     "Computer Science/Network/Framework/WCF/MS - 시작 자습서/03. WCF 서비스 Client.md",
     "Computer Science/Programming/UI/C#/WPF/Prism/Prism Library를 사용하는 개발자를 위한 안내.canvas",
@@ -176,28 +376,9 @@
     "Computer Science/Network/Framework/WCF/MS - 시작 자습서/01. WCF 서비스 계약 인터페이스 정의 및 구현.md",
     "Computer Science/Network/Framework/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
     "Computer Science/Programming/UI/C.md",
-    "Computer Science/Programming/UI",
-    "Computer Science/Programming/UI/C#/WPF/Prism",
     "Diary/2024-04-09.md",
     "Computer Science/Network/00. Concept/Payload.md",
-    "Computer Science/Programming/C#/WPF/test.md",
-    "Computer Science/Programming/C#/WPF/attachments",
-    "Computer Science/Operation System/Windows/certificate/OpenSSL/OpenSSL.md",
-    "Computer Science/Operation System/Windows/certificate/New-SelfSignedCertificate/New-SelfSignedCertificate.md",
-    "Diary/01. Daily",
-    "Diary",
-    "Snippet/콜아웃 callout.md",
-    "test",
-    "새 폴더",
-    "Computer Science/IDE/Visual Studio/Installer Projects.md",
     "Untitled.canvas",
-    "Computer Science/Network/01. Protocol/FTP/WIN10 + IIS + FTP.md",
-    "2024-04-09.md",
-    "Computer Science/Network/01. Protocol/SOAP/Soap Simple Server/01. SOAP Sample.md",
-    "Computer Science/Network/01. Protocol/SOAP/Soap Simple Server/00. SOAP 개념.md",
-    "Computer Science/Network/3'rd party/WCF/Step by Step/00. 개념.md",
-    "Computer Science/IDE/Visual Studio/Installer projects/Untitled.md",
-    "Computer Science/WCF/Src/Sample/02. Windows Communication Foundation 서비스 계약 구현.md",
     "Brain/무제 파일.canvas"
   ]
 }
