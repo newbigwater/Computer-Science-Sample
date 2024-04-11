@@ -1,5 +1,7 @@
 #win10 #PowerShell #SelfSignedCertificate #자체서명인증서
 
+[Secure](../Secure.md)
+
 > [!Quote]- Quote
 > https://techexpert.tips/ko/windows-ko/windows-%EC%9E%90%EC%B2%B4-%EC%84%9C%EB%AA%85%EB%90%9C-%EC%9D%B8%EC%A6%9D%EC%84%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/
 ## 자습서
