@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "4bed5127452528ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d37d9cb43d87ab3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "945e4a8bf4fe7592",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "558b26de04bb99ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "adc900ba988b79ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75adc1a8590f77c2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "eca3560dcc178bb4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#/WPF/Prism/Part",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "60720c8d6b6dd21e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 363.5
+  },
+  "right": {
+    "id": "1d8aaf53ddb5f905",
+    "type": "split",
+    "children": [
+      {
+        "id": "f621ef8ad50c4551",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fcb15120884b273e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7cb770e66a7efc72",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f9310dd5895fef6d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "56b872b15fe70e9e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "945e4a8bf4fe7592",
+  "lastOpenFiles": [
+    "network/WCF/MS - 시작 자습서/03. WCF 서비스 Client.md",
+    "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
+    "network/WCF/MS - 시작 자습서/00. WCF 개념.md",
+    "network/WCF/MS - 시작 자습서/01. WCF 서비스 계약 인터페이스 정의 및 구현.md",
+    "README.md",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240408175811.png",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240401111918.png",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240401111630.png",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240401111517.png",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240401110932.png",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240401102907.png",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240401102740.png",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240401101930.png",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240401101754.png",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240401101444.png",
+    "network/WCF/MS - 시작 자습서/attachments",
+    "network/WCF/MS - 시작 자습서",
+    "Computer Science/Programming/UI/C#/WPF/Prism/attachments",
+    "Computer Science/Programming/UI/C#/WPF/Prism/Part 02.md",
+    "Computer Science/Network/Framework/WCF/MS - 시작 자습서/03. WCF 서비스 Client.md",
+    "Computer Science/Programming/UI/C#/WPF/Prism/Prism Library를 사용하는 개발자를 위한 안내.canvas",
+    "Computer Science/Programming/UI/C#/WPF/Prism/Part 01. Prism.md",
+    "Computer Science/Network/Framework/WCF/MS - 시작 자습서/00. WCF 개념.md",
+    "Computer Science/Network/Framework/WCF/MS - 시작 자습서/01. WCF 서비스 계약 인터페이스 정의 및 구현.md",
+    "Computer Science/Network/Framework/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
+    "Computer Science/Programming/UI/C.md",
+    "Computer Science/Programming/UI",
+    "Computer Science/Programming/UI/C#/WPF/Prism",
+    "Diary/2024-04-09.md",
+    "Computer Science/Network/00. Concept/Payload.md",
+    "Computer Science/Programming/C#/WPF/test.md",
+    "Computer Science/Programming/C#/WPF/attachments",
+    "Computer Science/Operation System/Windows/certificate/OpenSSL/OpenSSL.md",
+    "Computer Science/Operation System/Windows/certificate/New-SelfSignedCertificate/New-SelfSignedCertificate.md",
+    "Diary/01. Daily",
+    "Diary",
+    "Snippet/콜아웃 callout.md",
+    "test",
+    "새 폴더",
+    "Computer Science/IDE/Visual Studio/Installer Projects.md",
+    "Untitled.canvas",
+    "Computer Science/Network/01. Protocol/FTP/WIN10 + IIS + FTP.md",
+    "2024-04-09.md",
+    "Computer Science/Network/01. Protocol/SOAP/Soap Simple Server/01. SOAP Sample.md",
+    "Computer Science/Network/01. Protocol/SOAP/Soap Simple Server/00. SOAP 개념.md",
+    "Computer Science/Network/3'rd party/WCF/Step by Step/00. 개념.md",
+    "Computer Science/IDE/Visual Studio/Installer projects/Untitled.md",
+    "Computer Science/WCF/Src/Sample/02. Windows Communication Foundation 서비스 계약 구현.md",
+    "Brain/무제 파일.canvas"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "attachmentFolderPath": "./attachments",
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "useMarkdownLinks": true
+}

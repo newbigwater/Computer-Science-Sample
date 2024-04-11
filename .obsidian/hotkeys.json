@@ -1,0 +1,45 @@
+{
+  "periodic-notes:open-weekly-note": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "2"
+    }
+  ],
+  "periodic-notes:open-yearly-note": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "4"
+    }
+  ],
+  "periodic-notes:open-daily-note": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
+  "periodic-notes:open-monthly-note": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "2"
+    }
+  ],
+  "update-relative-links:update-all-relative-links": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ]
+}
