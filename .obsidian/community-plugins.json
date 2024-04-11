@@ -1,4 +1,5 @@
 [
   "obsidian-importer",
-  "update-relative-links"
+  "update-relative-links",
+  "obsidian-git"
 ]

@@ -4,275 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0d37d9cb43d87ab3",
+        "id": "4cb03f16d754ce1d",
         "type": "tabs",
         "children": [
           {
-            "id": "945e4a8bf4fe7592",
+            "id": "802a4043e54afa7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "network/SOAP/Soap Simple Server/00. SOAP 개념.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1827b368f07ce0a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "network/SOAP/SOAP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c4ac1bba2601d08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "database/Database.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5efb5bd3cd5cf2c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IDE/IDE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4500216da97ab1d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IDE/Installer Projects/Installer Projects.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b8980dd1c3d008a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IDE/Installer Projects/Installer Projects.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6aca304edbe2fbf1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IDE/Installer Projects/Installer Projects.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9b950e8874d71e13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IDE/IDE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "14adb2c5994d9e4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "network/Network.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cde6f04209324bec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "network/SOAP/SOAP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e7aaeea45e0ae170",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "network/SOAP/Soap Simple Server/01. SOAP Sample.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e12cb29403d5a7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "network/SOAP/Soap Simple Server/01. SOAP Sample.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "283ffbfdd4d62b87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "network/SOAP/SOAP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85ac2a279c759554",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "network/SOAP/Soap Simple Server/00. SOAP 개념.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a64ab813da495753",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "network/SOAP/SOAP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "be1bba51ceb5724d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "network/Network.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb37baeca4817b41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "network/SOAP/SOAP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f2969a1ef9190ffa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "network/Network.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e360540a046c7b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Secure/Secure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fcaf687e928b41a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Secure/Secure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c977fbd20b1e80b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UI/UI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c4bb1dd925e6604",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
+                "file": "network/WCF/WCF.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 21
+        ]
       }
     ],
     "direction": "vertical"
@@ -338,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
+                "file": "network/WCF/WCF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -355,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
+                "file": "network/WCF/WCF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -378,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md"
+                "file": "network/WCF/WCF.md"
               }
             }
           }
@@ -401,29 +148,31 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "3c4bb1dd925e6604",
+  "active": "802a4043e54afa7a",
   "lastOpenFiles": [
-    "network/WCF/MS - 시작 자습서/03. WCF 서비스 Client.md",
+    "UI/WPF/WPF.WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/Properties/Settings.settings",
+    "UI/WPF/WPF.WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/Properties/Settings.Designer.cs",
+    "UI/WPF/WPF.WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/Properties/Resources.resx",
+    "UI/WPF/WPF.WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/Properties/Resources.Designer.cs",
+    "UI/WPF/WPF.WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/Properties/AssemblyInfo.cs",
+    "UI/WPF/WPF.WorkflowDesigner/02.MyEditorServiceApp/Properties/Settings.settings",
+    "UI/WPF/WPF.WorkflowDesigner/02.MyEditorServiceApp/Properties/Settings.Designer.cs",
+    "UI/WPF/WPF.WorkflowDesigner/02.MyEditorServiceApp/Properties/Resources.resx",
+    "UI/WPF/WPF.WorkflowDesigner/02.MyEditorServiceApp/Properties/Resources.Designer.cs",
+    "UI/WPF/WPF.WorkflowDesigner/02.MyEditorServiceApp/Properties/AssemblyInfo.cs",
+    "UI/WPF/WPF.WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/MainWindow.xaml.cs",
+    "UI/WPF/WPF.WorkflowDesigner/readme.md",
+    "network/Network.md",
+    "UI/UI.md",
     "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
+    "network/WCF/MS - 시작 자습서/03. WCF 서비스 Client.md",
     "network/WCF/MS - 시작 자습서/01. WCF 서비스 계약 인터페이스 정의 및 구현.md",
     "network/WCF/MS - 시작 자습서/00. WCF 개념.md",
     "README.md",
     "IDE/WorkflowDesigner/readme.md",
-    "IDE/WorkflowDesigner/WorkflowDesignerApp.sln",
-    "IDE/WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/Properties/Settings.settings",
-    "IDE/WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/Properties/Settings.Designer.cs",
-    "IDE/WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/Properties/Resources.Designer.cs",
-    "IDE/WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/Properties/Resources.resx",
-    "IDE/WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/Properties/AssemblyInfo.cs",
-    "IDE/WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/MainWindow.xaml.cs",
-    "IDE/WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/MainWindow.xaml",
-    "IDE/WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/Properties",
-    "IDE/WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/App.xaml.cs",
-    "UI/UI.md",
     "Secure/Secure.md",
     "Secure/New-SelfSignedCertificate/New-SelfSignedCertificate.md",
     "network/WCF/WCF.md",
-    "network/Network.md",
     "network/SOAP/SOAP.md",
     "network/SOAP/Soap Simple Server/01. SOAP Sample.md",
     "network/SOAP/Soap Simple Server/00. SOAP 개념.md",
@@ -448,8 +197,6 @@
     "Computer Science/Network/Framework/WCF/MS - 시작 자습서/00. WCF 개념.md",
     "Computer Science/Network/Framework/WCF/MS - 시작 자습서/01. WCF 서비스 계약 인터페이스 정의 및 구현.md",
     "Computer Science/Network/Framework/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
-    "Computer Science/Programming/UI/C.md",
-    "Diary/2024-04-09.md",
     "Untitled.canvas",
     "Brain/무제 파일.canvas"
   ]
