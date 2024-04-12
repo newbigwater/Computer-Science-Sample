@@ -1,32 +1,4 @@
-#WPF #WF #ACTIVE_LIBRARY
-
-[시작 자습서](시작%20자습서.md)
-
-
-> [!Quote]- Quote
-> https://learn.microsoft.com/ko-kr/dotnet/framework/windows-workflow-foundation/how-to-create-an-activity
-
-## Active Library Project 만들기
-
-![](attachments/Pasted%20image%2020240412235630.png)
-
-![](attachments/Pasted%20image%2020240413000651.png)
-
->**솔루션 탐색기**에서 **Activity1.xaml**을 마우스 오른쪽 단추로 클릭하고 **삭제**를 선택합니다. **확인** 을 클릭하여 확인합니다.
-
-## ReadInt 활동 만들기
-
-> 새 항목 추가 -> 설치됨 > 공통 항목 노드 
-> -> Workflow -> 코드 활동
-
-![](attachments/Pasted%20image%2020240413001251.png)
-
-
-> [!INFO] 참고
->![](attachments/Pasted%20image%2020240413001636.png)
-
-``` C#
-using System;
+﻿using System;
 using System.Activities;
 
 public sealed class ReadInt : NativeActivity<int>
@@ -60,5 +32,3 @@ public sealed class ReadInt : NativeActivity<int>
         this.Result.Set(context, Convert.ToInt32(state));
     }
 }
-```
-

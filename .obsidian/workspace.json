@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e5035b3ddd9b4396",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UI/WPF/Windows WF/시작 자습서/01. Active Library.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UI/WPF/Windows WF/Windows WF.md",
+                "file": "UI/WPF/Windows WF/시작 자습서/01. Active Library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UI/WPF/Windows WF/Windows WF.md",
+                "file": "UI/WPF/Windows WF/시작 자습서/01. Active Library.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UI/WPF/Windows WF/Windows WF.md"
+                "file": "UI/WPF/Windows WF/시작 자습서/01. Active Library.md"
               }
             }
           }
@@ -161,24 +173,29 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "4c75d6117e18ec53",
+  "active": "e5035b3ddd9b4396",
   "lastOpenFiles": [
-    "UI/WPF/Windows WF/01. Windows Workflow Foundation.md",
-    "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
+    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/NumberGuessWorkflowActivities.csproj.FileListAbsolute.txt",
+    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/bin/Debug/NumberGuessWorkflowActivities.pdb",
+    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/bin/Debug/NumberGuessWorkflowActivities.dll",
+    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/NumberGuessWorkflowActivities.pdb",
+    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/NumberGuessWorkflowActivities.dll",
+    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/NumberGuessWorkflowActivities.csproj.CoreCompileInputs.cache",
+    "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240413001636.png",
+    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/ReadInt.cs",
+    "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240413001251.png",
+    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/NumberGuessWorkflowActivities.csproj.AssemblyReference.cache",
+    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/ReadInt.xamlx",
+    "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240413000953.png",
+    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/bin/Release",
+    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+    "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240413000651.png",
+    "UI/WPF/Windows WF/시작 자습서/시작 자습서.md",
     "UI/WPF/Windows WF/Windows WF.md",
     "UI/UI.md",
-    "UI/WPF/Windows WF/시작 자습서/시작 자습서.md",
+    "UI/WPF/Windows WF/01. Windows Workflow Foundation.md",
+    "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
     "UI/WPF/Windows WF/시작 자습서/01. Active Library.md",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/Active Library/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/Active Library/obj/Debug/InProcessTempFiles/Activity1.g.xaml",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/Active Library/obj/Debug/InProcessTempFiles/Activity1.g.cs",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/Active Library/obj/Debug/InProcessTempFiles/_Active Library.g.cs",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/Active Library/obj/Debug/InProcessTempFiles",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/Active Library/obj/Debug/Active Library.csproj.AssemblyReference.cache",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/Active Library/obj/Debug/TempPE",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/Active Library/obj/Debug",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/Active Library/obj",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/Active Library/bin/Release",
     "UI/WPF/Windows WF/시작 자습서/00. Environment.md",
     "README.md",
     "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240412235630.png",
@@ -188,10 +205,8 @@
     "UI/WPF/Windows WF/attachments/Pasted image 20240412231041.png",
     "UI/WPF/Windows WF/attachments/Pasted image 20240412223827.png",
     "UI/WPF/Windows WF/attachments/Pasted image 20240412224250.png",
-    "UI/WPF/Windows WF/attachments/Pasted image 20240412230936.png",
     "UI/WPF/Windows WF/Windows Workflow Foundation/Workflow 구성 요소 간의 상호 작용.md",
     "UI/WPF/Windows WF/Windows Workflow Foundation/Workflow Runtime Engine.md",
-    "UI/WPF/Windows WF/Windows Workflow Foundation/attachments/Pasted image 20240412230543.png",
     "Workflow Runtime Engine.md",
     "Workflow.md",
     "network/WCF/WCF.md",
@@ -206,9 +221,6 @@
     "network/WCF/MS - 시작 자습서/01. WCF 서비스 계약 인터페이스 정의 및 구현.md",
     "network/WCF/MS - 시작 자습서/00. WCF 개념.md",
     "IDE/WorkflowDesigner/readme.md",
-    "Secure/New-SelfSignedCertificate/New-SelfSignedCertificate.md",
-    "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311155720.png",
-    "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311155639.png",
     "Computer Science/Programming/UI/C#/WPF/Prism/Prism Library를 사용하는 개발자를 위한 안내.canvas",
     "Untitled.canvas",
     "Brain/무제 파일.canvas"
