@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UI/WPF/Windows WF/Windows Workflow Foundation.md",
+                "file": "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5,
-    "collapsed": true
+    "width": 363.5
   },
   "right": {
     "id": "1d8aaf53ddb5f905",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UI/WPF/Windows WF/Windows Workflow Foundation.md",
+                "file": "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UI/WPF/Windows WF/Windows Workflow Foundation.md",
+                "file": "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UI/WPF/Windows WF/Windows Workflow Foundation.md"
+                "file": "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md"
               }
             }
           }
@@ -151,10 +150,11 @@
   },
   "active": "8bb08977b56b86d0",
   "lastOpenFiles": [
+    "UI/WPF/Windows WF/01. Windows Workflow Foundation.md",
+    "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
     "UI/WPF/Windows WF/attachments/Pasted image 20240412231429.png",
     "UI/WPF/Windows WF/attachments/Pasted image 20240412231041.png",
     "UI/WPF/Windows WF/attachments/Pasted image 20240412223827.png",
-    "UI/WPF/Windows WF/Windows Workflow Foundation.md",
     "UI/WPF/Windows WF/attachments/Pasted image 20240412224250.png",
     "UI/WPF/Windows WF/attachments/Pasted image 20240412230936.png",
     "UI/WPF/Windows WF/Windows Workflow Foundation/Workflow 구성 요소 간의 상호 작용.md",
@@ -195,7 +195,6 @@
     "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311155639.png",
     "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311155629.png",
     "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311155728.png",
-    "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311144309.png",
     "Computer Science/Programming/UI/C#/WPF/Prism/Part 02.md",
     "Computer Science/Programming/UI/C#/WPF/Prism/Prism Library를 사용하는 개발자를 위한 안내.canvas",
     "Untitled.canvas",
