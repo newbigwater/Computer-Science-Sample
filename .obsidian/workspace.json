@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 363.5,
+    "collapsed": true
   },
   "right": {
     "id": "1d8aaf53ddb5f905",
@@ -139,19 +140,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false
     }
   },
   "active": "8bb08977b56b86d0",
   "lastOpenFiles": [
-    "UI/WPF/Windows WF/01. Windows Workflow Foundation.md",
+    "UI/UI.md",
     "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
+    "UI/WPF/Windows WF/01. Windows Workflow Foundation.md",
     "UI/WPF/Windows WF/attachments/Pasted image 20240412231429.png",
     "UI/WPF/Windows WF/attachments/Pasted image 20240412231041.png",
     "UI/WPF/Windows WF/attachments/Pasted image 20240412223827.png",
@@ -168,7 +170,6 @@
     "UI/WPF/Windows WF/attachments",
     "network/WCF/WCF.md",
     "network/Network.md",
-    "UI/UI.md",
     "UI/WPF/WPF.WorkflowDesigner/Workflow Desinger.md",
     "UI/WPF/Windows WF",
     "Secure/Secure.md",
