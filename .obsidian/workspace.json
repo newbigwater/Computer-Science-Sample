@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "network/WCF/WCF.md",
+                "file": "UI/WPF/Windows WF/Windows Workflow Foundation.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 363.5,
+    "collapsed": true
   },
   "right": {
     "id": "1d8aaf53ddb5f905",
@@ -134,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "network/WCF/WCF.md",
+                "file": "UI/WPF/Windows WF/Windows Workflow Foundation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "network/WCF/WCF.md",
+                "file": "UI/WPF/Windows WF/Windows Workflow Foundation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "network/WCF/WCF.md"
+                "file": "UI/WPF/Windows WF/Windows Workflow Foundation.md"
               }
             }
           }
@@ -199,6 +200,9 @@
   },
   "active": "13186260e793006b",
   "lastOpenFiles": [
+    "UI/WPF/Windows WF/attachments/Pasted image 20240412223827.png",
+    "UI/WPF/Windows WF/attachments",
+    "network/WCF/WCF.md",
     "network/Network.md",
     "UI/UI.md",
     "README.md",
@@ -206,7 +210,6 @@
     "UI/WPF/WPF.WorkflowDesigner/Workflow Desinger.md",
     "UI/WPF/Windows WF",
     "Secure/Secure.md",
-    "network/WCF/WCF.md",
     "network/SOAP/SOAP.md",
     "IDE/IDE.md",
     "IDE/Installer Projects/Installer Projects.md",
@@ -219,7 +222,6 @@
     "UI/WPF/WPF.WorkflowDesigner/02.MyEditorServiceApp/Properties/Settings.settings",
     "UI/WPF/WPF.WorkflowDesigner/02.MyEditorServiceApp/Properties/Settings.Designer.cs",
     "UI/WPF/WPF.WorkflowDesigner/02.MyEditorServiceApp/Properties/Resources.resx",
-    "UI/WPF/WPF.WorkflowDesigner/02.MyEditorServiceApp/Properties/Resources.Designer.cs",
     "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
     "network/WCF/MS - 시작 자습서/03. WCF 서비스 Client.md",
     "network/WCF/MS - 시작 자습서/01. WCF 서비스 계약 인터페이스 정의 및 구현.md",
