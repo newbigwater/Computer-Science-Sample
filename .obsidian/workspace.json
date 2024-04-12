@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
+                "file": "UI/UI.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5,
-    "collapsed": true
+    "width": 363.5
   },
   "right": {
     "id": "1d8aaf53ddb5f905",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
+                "file": "UI/UI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
+                "file": "UI/UI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md"
+                "file": "UI/UI.md"
               }
             }
           }
@@ -151,9 +150,12 @@
   },
   "active": "8bb08977b56b86d0",
   "lastOpenFiles": [
+    "UI/WPF/WPF.WorkflowDesigner/Workflow Designer.md",
     "UI/UI.md",
-    "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
+    "UI/WPF/Windows WF/시작 자습서/01. Environment.md",
     "UI/WPF/Windows WF/01. Windows Workflow Foundation.md",
+    "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
+    "UI/WPF/Windows WF/시작 자습서",
     "UI/WPF/Windows WF/attachments/Pasted image 20240412231429.png",
     "UI/WPF/Windows WF/attachments/Pasted image 20240412231041.png",
     "UI/WPF/Windows WF/attachments/Pasted image 20240412223827.png",
@@ -170,7 +172,6 @@
     "UI/WPF/Windows WF/attachments",
     "network/WCF/WCF.md",
     "network/Network.md",
-    "UI/WPF/WPF.WorkflowDesigner/Workflow Desinger.md",
     "UI/WPF/Windows WF",
     "Secure/Secure.md",
     "network/SOAP/SOAP.md",
@@ -182,7 +183,6 @@
     "UI/WPF/WPF.WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/Properties/Resources.resx",
     "UI/WPF/WPF.WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/Properties/Resources.Designer.cs",
     "UI/WPF/WPF.WorkflowDesigner/01.WorkflowDesignerApp/WorkflowDesignerApp/Properties/AssemblyInfo.cs",
-    "UI/WPF/WPF.WorkflowDesigner/02.MyEditorServiceApp/Properties/Settings.settings",
     "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
     "network/WCF/MS - 시작 자습서/03. WCF 서비스 Client.md",
     "network/WCF/MS - 시작 자습서/01. WCF 서비스 계약 인터페이스 정의 및 구현.md",
@@ -196,7 +196,6 @@
     "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311155639.png",
     "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311155629.png",
     "network/SOAP/Soap Simple Server/attachments/Pasted image 20240311155728.png",
-    "Computer Science/Programming/UI/C#/WPF/Prism/Part 02.md",
     "Computer Science/Programming/UI/C#/WPF/Prism/Prism Library를 사용하는 개발자를 위한 안내.canvas",
     "Untitled.canvas",
     "Brain/무제 파일.canvas"
