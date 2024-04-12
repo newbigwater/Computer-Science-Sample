@@ -21,6 +21,10 @@ using System.ComponentModel;
 using System.Activities.Presentation.Validation;
 using System.Diagnostics;
 
+using System.Xaml;
+using ExpressionTextBox;
+using System.Activities.Presentation.Services;
+
 namespace WorkflowDesignerApp
 {
     /// <summary>
@@ -56,18 +60,21 @@ namespace WorkflowDesignerApp
             grid1.Children.Add(this.wd.View);
         }
 
+        private IDictionary<string, Type> GetWorkflowArguments()
+        {
+            // Define workflow arguments (name and type)
+            IDictionary<string, Type> arguments = new Dictionary<string, Type>();
+            arguments.Add("Argument1", typeof(string));
+            arguments.Add("Argument2", typeof(int));
+            // Add more arguments as needed
+
+            return arguments;
+        }
+
         private void RegisterMetadata()
         {
             var dm = new DesignerMetadata();
             dm.Register();
-
-
-            AttributeTableBuilder builder = new AttributeTableBuilder();
-            builder.AddCustomAttributes(typeof(MyDynamicActivity), new DescriptionAttribute("My Dynamic Activity Description"));
-            builder.AddCustomAttributes(typeof(MyDynamicActivity), "InputParameter", new DescriptionAttribute("Input Parameter Description"));
-            builder.AddCustomAttributes(typeof(MyDynamicActivity), "OutputParameter", new DescriptionAttribute("Output Parameter Description"));
-
-            MetadataStore.AddAttributeTable(builder.CreateTable());
         }
 
         #endregion
@@ -99,6 +106,9 @@ namespace WorkflowDesignerApp
             // Add Custom Control
             var eisCategory = new ToolboxCategory("Custom");
 
+            MultiAssign multiAssign = new MultiAssign();
+            eisCategory.Add(new ToolboxItemWrapper(multiAssign.GetType(), multiAssign.GetType().Name));
+
             MyDynamicActivity myDynamicActivity = new MyDynamicActivity();
             eisCategory.Add(new ToolboxItemWrapper(myDynamicActivity.GetType(), myDynamicActivity.GetType().Name));
 
@@ -106,23 +116,6 @@ namespace WorkflowDesignerApp
             ctrl.Categories.Add(eisCategory);
             ctrl.Categories.Add(category);
             return ctrl;
-        }
-
-        public class MyDynamicActivity : NativeActivity
-        {
-            public InArgument<string> InputParameter { get; set; }
-
-            public OutArgument<string> OutputParameter { get; set; }
-
-            protected override void Execute(NativeActivityContext context)
-            {
-                // Custom activity logic here
-                string input = InputParameter.Get(context);
-                Console.WriteLine($"Executing MyDynamicActivity with input: {input}");
-
-                // Set output value
-                OutputParameter.Set(context, "Output Value");
-            }
         }
 
         private void AddToolBox()
@@ -142,6 +135,54 @@ namespace WorkflowDesignerApp
         }
 
         #endregion
+
+        private void BtnSave_Click(object sender, RoutedEventArgs e)
+        {
+            var saveFileDialog = new Microsoft.Win32.SaveFileDialog();
+            saveFileDialog.Filter = "XAML File (*.xaml)|*.xaml|All files (*.*)|*.*";
+            if (saveFileDialog.ShowDialog() == true)
+            {
+                wd.Save(saveFileDialog.FileName);
+            }
+        }
+
+        private void BtnRun_Click(object sender, RoutedEventArgs e)
+        {
+            var OpenFileDialog = new Microsoft.Win32.OpenFileDialog();
+            OpenFileDialog.Filter = "XAML File (*.xaml)|*.xaml|All files (*.*)|*.*";
+            if (OpenFileDialog.ShowDialog() == true)
+            {
+                // XAML 파일에서 워크플로 로드
+                Activity workflow;
+                using (var stream = System.IO.File.OpenRead(OpenFileDialog.FileName))
+                {
+                    workflow = XamlServices.Load(stream) as Activity;
+                }
+
+                // 워크플로 실행
+                if (workflow != null)
+                {
+                    WorkflowApplication workflowApplication = null;
+                    try
+                    {
+                        workflowApplication = new WorkflowApplication(workflow);
+                        workflowApplication.Run();
+                        MessageBox.Show("Workflow completed.");
+                    }
+                    finally
+                    {
+                        if (workflowApplication != null)
+                        {
+                            workflowApplication.Abort();
+                        }
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Failed to load workflow.");
+                }
+            }
+        }
     }
 
     #region IValidationErrorService 인터페이스 구현
