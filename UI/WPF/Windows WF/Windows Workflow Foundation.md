@@ -5,7 +5,7 @@
 > [!Quote]- Quote
 > https://learn.microsoft.com/ko-kr/dotnet/framework/windows-workflow-foundation/
 
-## Windows Workflow Outline
+## [Windows Workflow Outline]
 > 워크플로는 실세계 프로세스를 설명하는 모델로 저장되는 A workflow is a set of elemental units called _활동_이라는 요소 단위의 집합입니다. 워크플로를 통해 단기 실행 작업과 장기 실행 작업의 실행 순서와 종속 관계를 설명할 수 있습니다. 이 작업은 모델을 시작부터 끝까지 통과하며 활동은 사람이 실행하거나 시스템 함수로 실행될 수 있습니다.
 
 ### Workflow Runtime Engine
@@ -37,4 +37,4 @@
 - [CodeActivity](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.codeactivity) 추상 클래스에서 파생되는 사용자 지정 활동입니다. [CodeActivity](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.codeactivity)는 [CodeActivityContext](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.codeactivitycontext) 메서드의 매개 변수로 사용되는 [Execute](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.codeactivity.execute)를 사용하여 런타임 기능(예: 추적 및 속성)에 액세스할 수 있습니다. 이러한 런타임 기능에 대한 자세한 내용은 [워크플로 추적 및 트레이싱](https://learn.microsoft.com/ko-kr/dotnet/framework/windows-workflow-foundation/workflow-tracking-and-tracing)과 [워크플로 실행 속성](https://learn.microsoft.com/ko-kr/dotnet/framework/windows-workflow-foundation/workflow-execution-properties)을 참조하세요.
 
 ---
-## Fundamental Windows Workflow Concept
+## [Fundamental Windows Workflow Concept]
