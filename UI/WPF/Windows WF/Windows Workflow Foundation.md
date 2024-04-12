@@ -36,7 +36,6 @@
 - `ReadLine`이라는 사용자 지정 활동입니다. [OutArgument](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.outargument) 활동의 `ReadLine`가 호출 [Invoke](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.workflowinvoker.invoke) 메서드에 반환됩니다.
 - [CodeActivity](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.codeactivity) 추상 클래스에서 파생되는 사용자 지정 활동입니다. [CodeActivity](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.codeactivity)는 [CodeActivityContext](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.codeactivitycontext) 메서드의 매개 변수로 사용되는 [Execute](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.codeactivity.execute)를 사용하여 런타임 기능(예: 추적 및 속성)에 액세스할 수 있습니다. 이러한 런타임 기능에 대한 자세한 내용은 [워크플로 추적 및 트레이싱](https://learn.microsoft.com/ko-kr/dotnet/framework/windows-workflow-foundation/workflow-tracking-and-tracing)과 [워크플로 실행 속성](https://learn.microsoft.com/ko-kr/dotnet/framework/windows-workflow-foundation/workflow-execution-properties)을 참조하세요.
 
-
 ---
 ## [Fundamental Windows Workflow Concept]
 ### 워크플로 및 활동
@@ -115,3 +114,22 @@ Windows Workflow는 다음을 제공하여 장기 실행 대응 프로그램을 
 별도로 유지할 수 없는 일시적 상태 또는 데이터를 사용하는 실행 블록의 경우 활동에서 [NoPersistHandle](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.nopersisthandle)를 사용하여 호스트에 이를 유지하지 않도록 지시할 수 있습니다. 
 
 또한 워크플로에서는 [Persist](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.statements.persist) 활동을 사용하여 데이터를 영구 스토리지 매체에 명시적으로 유지할 수 있습니다.
+
+---
+## Windows Workflow 아키텍처
+
+Windows WF(Workflow Foundation)는 대화형 장기 실행 애플리케이션 개발을 위한 추상화 수준을 높입니다. 작업 단위는 활동으로 캡슐화됩니다. 
+
+또한 활동은 흐름 제어, 예외 처리, 오류 전파, 상태 데이터 지속성, 메모리에서 진행 중인 워크플로 로드 및 언로드, 추적, 트랜잭션 흐름 등과 같은 기능을 제공하는 환경에서 실행됩니다.
+
+### 활동 아키텍처
+
+활동은 [Activity](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.activity), [CodeActivity](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.codeactivity), [AsyncCodeActivity](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.asynccodeactivity) 또는 [NativeActivity](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.nativeactivity)에서 파생되는 CLR 형식 또는 Activity<TResult>, CodeActivity<TResult>, AsyncCodeActivity<TResult> 또는 NativeActivity<TResult> 값을 반환하는 변형으로 개발됩니다.
+
+Activity에서 파생되는 개발 활동을 사용하면 기존 활동을 어셈블하여 워크플로 환경에서 실행되는 작업 단위를 신속하게 만들 수 있습니다. 
+
+반면 CodeActivity를 사용하면 주로 CodeActivityContext를 통해 관리 코드에서 활동 인수에 액세스하는 데 필요한 실행 논리를 작성할 수 있습니다. 
+
+AsyncCodeActivity는 비동기 작업을 구현하는 데 사용할 수 있다는 점을 제외하고 CodeActivity와 비슷합니다.
+
+NativeActivity에서 파생되는 활동을 개발하면 자식 예약, 책갈피 만들기, 비동기 작업 호출, 트랜잭션 등록 등과 같은 기능에 NativeActivityContext를 통해 런타임에 액세스할 수 있습니다.
