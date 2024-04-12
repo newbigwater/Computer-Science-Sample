@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UI/WPF/Windows WF/시작 자습서/시작 자습서.md",
+                "file": "UI/WPF/Windows WF/Windows WF.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UI/WPF/Windows WF/시작 자습서/시작 자습서.md",
+                "file": "UI/WPF/Windows WF/Windows WF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UI/WPF/Windows WF/시작 자습서/시작 자습서.md",
+                "file": "UI/WPF/Windows WF/Windows WF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UI/WPF/Windows WF/시작 자습서/시작 자습서.md"
+                "file": "UI/WPF/Windows WF/Windows WF.md"
               }
             }
           }
@@ -163,6 +163,11 @@
   },
   "active": "4c75d6117e18ec53",
   "lastOpenFiles": [
+    "UI/WPF/Windows WF/01. Windows Workflow Foundation.md",
+    "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
+    "UI/WPF/Windows WF/Windows WF.md",
+    "UI/UI.md",
+    "UI/WPF/Windows WF/시작 자습서/시작 자습서.md",
     "UI/WPF/Windows WF/시작 자습서/01. Active Library.md",
     "UI/WPF/Windows WF/시작 자습서/Windows WF/Active Library/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
     "UI/WPF/Windows WF/시작 자습서/Windows WF/Active Library/obj/Debug/InProcessTempFiles/Activity1.g.xaml",
@@ -175,14 +180,10 @@
     "UI/WPF/Windows WF/시작 자습서/Windows WF/Active Library/obj",
     "UI/WPF/Windows WF/시작 자습서/Windows WF/Active Library/bin/Release",
     "UI/WPF/Windows WF/시작 자습서/00. Environment.md",
-    "UI/WPF/Windows WF/시작 자습서/시작 자습서.md",
-    "UI/UI.md",
     "README.md",
     "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240412235630.png",
     "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240412234811.png",
     "UI/WPF/WPF.WorkflowDesigner/Workflow Designer.md",
-    "UI/WPF/Windows WF/01. Windows Workflow Foundation.md",
-    "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
     "UI/WPF/Windows WF/attachments/Pasted image 20240412231429.png",
     "UI/WPF/Windows WF/attachments/Pasted image 20240412231041.png",
     "UI/WPF/Windows WF/attachments/Pasted image 20240412223827.png",
