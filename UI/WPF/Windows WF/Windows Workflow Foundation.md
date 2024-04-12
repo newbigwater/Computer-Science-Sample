@@ -17,13 +17,12 @@
     
 - 다중 인스턴스 시나리오에서 메시지 기반 상호 작용에 사용하는 [WorkflowServiceHost](https://learn.microsoft.com/ko-kr/dotnet/api/system.servicemodel.workflowservicehost)
 
-
-![호스트 프로세스의 워크플로 구성 요소](attachments/Pasted%20image%2020240412223827.png)
+![호스트 프로세스의 워크플로 구성 요소](Pasted%20image%2020240412230936.png)
 
 호스트 프로세스의 WorkFlow 구성 요소
 
 ### Workflow 구성 요소 간의 상호 작용
-![](attachments/Pasted%20image%2020240412224250.png)
+![](Pasted%20image%2020240412231041.png)
 
 위의 다이어그램에서는 [Invoke](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.workflowinvoker.invoke) 클래스의 [WorkflowInvoker](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.workflowinvoker) 메서드를 사용하여 여러 워크플로 인스턴스를 호출합니다.
 [WorkflowInvoker](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.workflowinvoker)는 호스트에서 관리할 필요 없는 간단한 워크플로에 사용되며, 호스트에서 관리해야 하는 워크플로(예: [Bookmark](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.bookmark) 다시 시작)는 그 대신 [Run](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.workflowapplication.run)을 사용하여 실행해야 합니다.
@@ -35,6 +34,7 @@
 - `ReadLine`이라는 사용자 지정 활동입니다. [OutArgument](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.outargument) 활동의 `ReadLine`가 호출 [Invoke](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.workflowinvoker.invoke) 메서드에 반환됩니다.
     
 - [CodeActivity](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.codeactivity) 추상 클래스에서 파생되는 사용자 지정 활동입니다. [CodeActivity](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.codeactivity)는 [CodeActivityContext](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.codeactivitycontext) 메서드의 매개 변수로 사용되는 [Execute](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.codeactivity.execute)를 사용하여 런타임 기능(예: 추적 및 속성)에 액세스할 수 있습니다. 이러한 런타임 기능에 대한 자세한 내용은 [워크플로 추적 및 트레이싱](https://learn.microsoft.com/ko-kr/dotnet/framework/windows-workflow-foundation/workflow-tracking-and-tracing)과 [워크플로 실행 속성](https://learn.microsoft.com/ko-kr/dotnet/framework/windows-workflow-foundation/workflow-execution-properties)을 참조하세요.
+
 
 ---
 ## [Fundamental Windows Workflow Concept]
