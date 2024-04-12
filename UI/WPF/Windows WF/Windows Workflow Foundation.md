@@ -17,12 +17,12 @@
     
 - 다중 인스턴스 시나리오에서 메시지 기반 상호 작용에 사용하는 [WorkflowServiceHost](https://learn.microsoft.com/ko-kr/dotnet/api/system.servicemodel.workflowservicehost)
 
-![호스트 프로세스의 워크플로 구성 요소](Pasted%20image%2020240412230936.png)
+![호스트 프로세스의 워크플로 구성 요소](attachments/Pasted%20image%2020240412230936.png)
 
 호스트 프로세스의 WorkFlow 구성 요소
 
 ### Workflow 구성 요소 간의 상호 작용
-![](Pasted%20image%2020240412231041.png)
+![](attachments/Pasted%20image%2020240412231041.png)
 
 위의 다이어그램에서는 [Invoke](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.workflowinvoker.invoke) 클래스의 [WorkflowInvoker](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.workflowinvoker) 메서드를 사용하여 여러 워크플로 인스턴스를 호출합니다.
 [WorkflowInvoker](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.workflowinvoker)는 호스트에서 관리할 필요 없는 간단한 워크플로에 사용되며, 호스트에서 관리해야 하는 워크플로(예: [Bookmark](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.bookmark) 다시 시작)는 그 대신 [Run](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.workflowapplication.run)을 사용하여 실행해야 합니다.
