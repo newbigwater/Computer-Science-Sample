@@ -18,9 +18,8 @@
     
 - 다중 인스턴스 시나리오에서 메시지 기반 상호 작용에 사용하는 [WorkflowServiceHost](https://learn.microsoft.com/ko-kr/dotnet/api/system.servicemodel.workflowservicehost)
 
-호스트 프로세스의 WorkFlow 구성 요소
 
 ![호스트 프로세스의 워크플로 구성 요소](attachments/Pasted%20image%2020240412223827.png)
-
+호스트 프로세스의 WorkFlow 구성 요소
 
 
