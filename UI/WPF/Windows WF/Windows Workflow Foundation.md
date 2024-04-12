@@ -38,3 +38,20 @@
 
 ---
 ## [Fundamental Windows Workflow Concept]
+### 워크플로 및 활동
+
+워크플로는 프로세스를 모델링하는 구조화된 동작의 컬렉션입니다. 
+워크플로의 각 동작은 활동으로 모델링됩니다. 
+호스트는 
+[WorkflowInvoker](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.workflowinvoker)를 사용하여 워크플로를 메서드처럼 호출하고, 
+[WorkflowApplication](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.workflowapplication)를 사용하여 단일 워크플로 인스턴스 실행을 명시적으로 제어하고, 
+[WorkflowServiceHost](https://learn.microsoft.com/ko-kr/dotnet/api/system.servicemodel.workflowservicehost)를 사용하여 다중 인스턴스 시나리오에서 메시지 기반의 상호 작용을 수행함으로써 워크플로와 상호 작용합니다. 
+
+워크플로 단계는 활동 계층으로 정의되기 때문에 계층의 최상위 활동이 워크플로 자체를 정의한다고 할 수 있습니다. 
+이 계층 모델은 이전 버전의 명시적 `SequentialWorkflow` 및 `StateMachineWorkflow` 클래스를 대체합니다. 
+활동 자체는 데이터 액세스에 런타임을 사용할 수 있게 해주는 [Activity](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.activity) 또는 활동 작성자에 워크플로 런타임을 표시하는 [CodeActivity](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.codeactivity) 클래스를 사용하여 만든 사용자 지정 활동 또는 다른 활동([NativeActivity](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.nativeactivity) 클래스를 기반으로 사용하며 일반적으로 XAML을 사용하여 정의됨)의 컬렉션으로 개발됩니다. 
+[CodeActivity](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.codeactivity) 및 [NativeActivity](https://learn.microsoft.com/ko-kr/dotnet/api/system.activities.nativeactivity)를 사용하여 개발되는 활동은 C# 등과 같은 CLR 호환 언어를 통해 만들어집니다.
+
+### 활동 데이터 모델
+
+![](Pasted%20image%2020240412231429.png)
