@@ -54,4 +54,5 @@
 
 ### 활동 데이터 모델
 
-![](Pasted%20image%2020240412231429.png)
+![](attachments/Pasted%20image%2020240412231429.png)
+
