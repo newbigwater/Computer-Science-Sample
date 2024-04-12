@@ -1,8 +1,8 @@
 [Network](../Network.md)
 
-## Outline
+## [Contents]
 
-### Simple Server
+### [Simple Server]
 
 [00. SOAP 개념](Soap%20Simple%20Server/00.%20SOAP%20개념.md)
 
