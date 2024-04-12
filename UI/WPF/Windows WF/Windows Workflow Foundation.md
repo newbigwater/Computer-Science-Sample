@@ -23,4 +23,7 @@
 
 호스트 프로세스의 WorkFlow 구성 요소
 
+---
+### Workflow 구성 요소 간의 상호 작용
+![](attachments/Pasted%20image%2020240412224250.png)
 
