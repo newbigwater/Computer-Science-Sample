@@ -12,10 +12,8 @@ using System.Windows.Controls;
 using System.Activities;
 using System.Activities.Core.Presentation;
 using System.Activities.Presentation;
-using System.Activities.Presentation.Metadata;
 using System.Activities.Presentation.Toolbox;
 using System.Activities.Statements;
-using System.ComponentModel;
 
 // 유효성 검사 오류 표시
 using System.Activities.Presentation.Validation;
@@ -23,7 +21,7 @@ using System.Diagnostics;
 
 using System.Xaml;
 using ExpressionTextBox;
-using System.Activities.Presentation.Services;
+using System.Activities.Presentation.View;
 
 namespace WorkflowDesignerApp
 {
@@ -53,22 +51,20 @@ namespace WorkflowDesignerApp
             // Place the designer canvas in the middle column of the grid.
             Grid.SetColumn(this.wd.View, 1);
 
-            // Load a new Sequence as default.
+            // Load a new Flowchart as default.
             this.wd.Load(new Flowchart());
+
+            // 인수 탭 추가
+            var designerView = wd.Context.Services.GetService<DesignerView>();
+            designerView.WorkflowShellBarItemVisibility =
+                ShellBarItemVisibility.Variables |
+                ShellBarItemVisibility.Arguments |  // 인수 탭
+                ShellBarItemVisibility.Imports |
+                ShellBarItemVisibility.Zoom |
+                ShellBarItemVisibility.MiniMap;
 
             // Add the designer canvas to the grid.
             grid1.Children.Add(this.wd.View);
-        }
-
-        private IDictionary<string, Type> GetWorkflowArguments()
-        {
-            // Define workflow arguments (name and type)
-            IDictionary<string, Type> arguments = new Dictionary<string, Type>();
-            arguments.Add("Argument1", typeof(string));
-            arguments.Add("Argument2", typeof(int));
-            // Add more arguments as needed
-
-            return arguments;
         }
 
         private void RegisterMetadata()

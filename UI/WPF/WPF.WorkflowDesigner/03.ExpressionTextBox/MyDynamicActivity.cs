@@ -5,7 +5,9 @@ namespace ExpressionTextBox
 {
     public class MyDynamicActivity : NativeActivity
     {
+        [RequiredArgument]
         public InArgument<string> InputParameter { get; set; }
+        [RequiredArgument]
         public OutArgument<string> OutputParameter { get; set; }
 
         protected override void Execute(NativeActivityContext context)
