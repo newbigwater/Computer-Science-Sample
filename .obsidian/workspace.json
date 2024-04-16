@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UI/WPF/Windows WF/시작 자습서/01. Active Library.md",
+                "file": "network/WCF/WCF.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UI/WPF/Windows WF/시작 자습서/01. Active Library.md",
+                "file": "network/WCF/WCF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UI/WPF/Windows WF/시작 자습서/01. Active Library.md",
+                "file": "network/WCF/WCF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UI/WPF/Windows WF/시작 자습서/01. Active Library.md"
+                "file": "network/WCF/WCF.md"
               }
             }
           }
@@ -175,6 +175,19 @@
   },
   "active": "e5035b3ddd9b4396",
   "lastOpenFiles": [
+    "network/WCF/MS - 시작 자습서/00. WCF 개념.md",
+    "network/WCF/WCF.md",
+    "network/WCF/MS - 시작 자습서/05. Net.TCP.md",
+    "network/WCF/MS - 시작 자습서/01. WCF 서비스 계약 인터페이스 정의 및 구현.md",
+    "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
+    "network/WCF/MS - 시작 자습서/03. WCF 서비스 Client.md",
+    "network/WCF/MS - 시작 자습서/04. 기본 WCF 프로그래밍.md",
+    "UI/WPF/Windows WF/시작 자습서/01. Active Library.md",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240416105547.png",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240415164004.png",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240415163920.png",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240415163816.png",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240415163812.png",
     "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/NumberGuessWorkflowActivities.csproj.FileListAbsolute.txt",
     "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/bin/Debug/NumberGuessWorkflowActivities.pdb",
     "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/bin/Debug/NumberGuessWorkflowActivities.dll",
@@ -188,39 +201,26 @@
     "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/ReadInt.xamlx",
     "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240413000953.png",
     "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/bin/Release",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
     "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240413000651.png",
     "UI/WPF/Windows WF/시작 자습서/시작 자습서.md",
     "UI/WPF/Windows WF/Windows WF.md",
     "UI/UI.md",
     "UI/WPF/Windows WF/01. Windows Workflow Foundation.md",
     "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
-    "UI/WPF/Windows WF/시작 자습서/01. Active Library.md",
     "UI/WPF/Windows WF/시작 자습서/00. Environment.md",
     "README.md",
     "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240412235630.png",
-    "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240412234811.png",
     "UI/WPF/WPF.WorkflowDesigner/Workflow Designer.md",
-    "UI/WPF/Windows WF/attachments/Pasted image 20240412231429.png",
-    "UI/WPF/Windows WF/attachments/Pasted image 20240412231041.png",
-    "UI/WPF/Windows WF/attachments/Pasted image 20240412223827.png",
-    "UI/WPF/Windows WF/attachments/Pasted image 20240412224250.png",
     "UI/WPF/Windows WF/Windows Workflow Foundation/Workflow 구성 요소 간의 상호 작용.md",
     "UI/WPF/Windows WF/Windows Workflow Foundation/Workflow Runtime Engine.md",
     "Workflow Runtime Engine.md",
     "Workflow.md",
-    "network/WCF/WCF.md",
     "network/Network.md",
     "Secure/Secure.md",
     "network/SOAP/SOAP.md",
     "IDE/IDE.md",
     "IDE/Installer Projects/Installer Projects.md",
     "database/Database.md",
-    "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
-    "network/WCF/MS - 시작 자습서/03. WCF 서비스 Client.md",
-    "network/WCF/MS - 시작 자습서/01. WCF 서비스 계약 인터페이스 정의 및 구현.md",
-    "network/WCF/MS - 시작 자습서/00. WCF 개념.md",
-    "IDE/WorkflowDesigner/readme.md",
     "Computer Science/Programming/UI/C#/WPF/Prism/Prism Library를 사용하는 개발자를 위한 안내.canvas",
     "Untitled.canvas",
     "Brain/무제 파일.canvas"
