@@ -13,3 +13,5 @@
 [04. 기본 WCF 프로그래밍](MS%20-%20시작%20자습서/04.%20기본%20WCF%20프로그래밍.md)
 
 [05. Net.TCP](MS%20-%20시작%20자습서/05.%20Net.TCP.md)
+
+[06. TransportMode](MS%20-%20시작%20자습서/06.%20TransportMode.md)
