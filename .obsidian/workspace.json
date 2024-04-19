@@ -4,7 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "4cb03f16d754ce1d",
+        "id": "096e5da15787aad0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b991fd5eb96924d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UI/WPF/WPF.WorkflowDesigner/Workflow Designer.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "b0e2faecb93cf290",
         "type": "tabs",
         "children": [
           {
@@ -13,38 +31,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UI/UI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c75d6117e18ec53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UI/WPF/Windows WF/Windows WF.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5035b3ddd9b4396",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/Programming.md",
-                "mode": "source",
+                "file": "UI/WPF/WPF.WorkflowDesigner/Workflow Designer.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Programming.md",
+                "file": "UI/WPF/WPF.WorkflowDesigner/Workflow Designer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Programming.md",
+                "file": "UI/WPF/WPF.WorkflowDesigner/Workflow Designer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Programming.md"
+                "file": "UI/WPF/WPF.WorkflowDesigner/Workflow Designer.md"
               }
             }
           }
@@ -164,24 +157,35 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "e5035b3ddd9b4396",
+  "active": "b991fd5eb96924d7",
   "lastOpenFiles": [
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.IIS/Connected Services/Service/Reference.svcmap",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.IIS/Connected Services/Service/Reference.cs",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.IIS/Connected Services/Service/CalculatorService.wsdl",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.IIS/Connected Services/Service/configuration91.svcinfo",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.IIS/Connected Services/Service/Calculator1.xsd",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.IIS/Connected Services/Service/configuration.svcinfo",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.IIS/Connected Services/Service/Calculator.xsd",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.IIS/Connected Services/Service/Calculator.disco",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.IIS/Connected Services/CalculatorService/Reference.svcmap",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.IIS/Connected Services/CalculatorService/Reference.cs",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.IIS/Connected Services/CalculatorService/configuration91.svcinfo",
+    "Programming/Garbage Collection/attachments/Pasted image 20240418144349.png",
     "Programming/Garbage Collection/Garbage Collection.md",
     "Programming/Programming.md",
-    "network/Network.md",
-    "README.md",
+    "UI/WPF/WPF.WorkflowDesigner/attachments/Pasted image 20240418165052.png",
+    "UI/UI.md",
+    "UI/WPF/WPF.WorkflowDesigner/Workflow Designer.md",
     "network/WCF/WCF.md",
-    "Programming/Garbage Collection/attachments/Pasted image 20240418144349.png",
-    "Programming/Garbage Collection/attachments",
     "network/WCF/MS - 시작 자습서/00. WCF 개념.md",
     "network/WCF/MS - 시작 자습서/05. Net.TCP.md",
     "network/WCF/MS - 시작 자습서/01. WCF 서비스 계약 인터페이스 정의 및 구현.md",
@@ -194,33 +198,22 @@
     "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240415163920.png",
     "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240415163816.png",
     "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240415163812.png",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/NumberGuessWorkflowActivities.csproj.FileListAbsolute.txt",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/bin/Debug/NumberGuessWorkflowActivities.pdb",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/bin/Debug/NumberGuessWorkflowActivities.dll",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/NumberGuessWorkflowActivities.pdb",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/NumberGuessWorkflowActivities.dll",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/NumberGuessWorkflowActivities.csproj.CoreCompileInputs.cache",
     "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240413001636.png",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/ReadInt.cs",
     "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240413001251.png",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/NumberGuessWorkflowActivities.csproj.AssemblyReference.cache",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/ReadInt.xamlx",
     "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240413000953.png",
-    "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240413000651.png",
     "UI/WPF/Windows WF/시작 자습서/시작 자습서.md",
     "UI/WPF/Windows WF/Windows WF.md",
-    "UI/UI.md",
     "UI/WPF/Windows WF/01. Windows Workflow Foundation.md",
     "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
     "UI/WPF/Windows WF/시작 자습서/00. Environment.md",
-    "UI/WPF/WPF.WorkflowDesigner/Workflow Designer.md",
+    "README.md",
     "UI/WPF/Windows WF/Windows Workflow Foundation/Workflow 구성 요소 간의 상호 작용.md",
     "UI/WPF/Windows WF/Windows Workflow Foundation/Workflow Runtime Engine.md",
     "Workflow Runtime Engine.md",
     "Workflow.md",
+    "network/Network.md",
     "Secure/Secure.md",
     "network/SOAP/SOAP.md",
-    "IDE/IDE.md",
     "Computer Science/Programming/UI/C#/WPF/Prism/Prism Library를 사용하는 개발자를 위한 안내.canvas",
     "Untitled.canvas",
     "Brain/무제 파일.canvas"
