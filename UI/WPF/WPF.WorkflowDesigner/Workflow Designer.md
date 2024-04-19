@@ -33,17 +33,20 @@ Workflow1.xaml에서 워크플로 작업을 하는 프로젝트
 
 ## WorkflowDesignerApp 상세
 ### MainWindow 구성
-![](Pasted%20image%2020240418165052.png)
-
+![](attachments/Pasted%20image%2020240418165052.png)
+![](attachments/Pasted%20image%2020240419144458.png)
 3개의 Grid로 구성되어있다.
-좌측 Grid는 Toolbox,
-중앙 Grid는 WorkflowDesigner,
-우측 Grid는 Property가 그려진다.
+- 좌측 Grid는 Toolbox,
+- 중앙 Grid는 WorkflowDesigner,
+- 우측 Grid는 Property가 그려진다.
 
-우측 하단에 Run 버튼과 Save 버튼이 있다.
-Save 버튼을 통해 
+우측 하단에 file 관련 버튼이 있다.
+- Load - 저장한 워크플로 xaml 파일을 Load WorkflowDesigner에 표출한다.
+- Run - 저장한 워크플로 xaml 파일을 실행한다.
+- Save  - 작성한 워크플로를  xaml 파일로 저장한다.
 
 ### WorkflowDesigner
 중앙 Grid에 그려지는 Workflow 편집 뷰이다.
 AddDesigner() 메서드에서 할당한다.
 > ActivityBuilder를 Load해야 인수를 활성화하여 사용할 수 있다.
+
