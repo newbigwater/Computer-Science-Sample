@@ -14,8 +14,9 @@
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
         </Grid>
-        <Button x:Name="BtnRun" Content="Run" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Margin="1328,489,0,0" Click="BtnRun_Click"/>
+        <Button x:Name="BtnRun" Content="Run" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Margin="1329,489,0,0" Click="BtnRun_Click"/>
         <Button x:Name="BtnSave" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Margin="1408,489,0,0" Click="BtnSave_Click"/>
+        <Button x:Name="BtnLoad" Content="Load" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Margin="1250,489,0,0" Click="BtnLoad_Click"/>
 
     </Grid>
 </Window>

@@ -22,6 +22,9 @@ using System.Diagnostics;
 using System.Xaml;
 using ExpressionTextBox;
 using System.Activities.Presentation.View;
+using System.Reflection;
+using System.IO;
+using System.Activities.XamlIntegration;
 
 namespace WorkflowDesignerApp
 {
@@ -54,8 +57,8 @@ namespace WorkflowDesignerApp
             // Load a new Flowchart as default.
             var builder = new ActivityBuilder
             {
-                Implementation = new Flowchart(),
-                Name = "ActivityBuilder"
+                Name = "ActivityBuilder",
+                Implementation = new Flowchart()
             };
             // Add Argument - Name에 Space 포함시 주의 발생
             builder.Properties.Add(new DynamicActivityProperty { Name = "BuilderName", Type = typeof(InArgument<string>) });
@@ -64,7 +67,7 @@ namespace WorkflowDesignerApp
             // Add the designer canvas to the grid.
             grid1.Children.Add(wd.View);
 
-            // 인수 탭 추가
+            // 인수 탭 강제 추가
             //var designerView = wd.Context.Services.GetService<DesignerView>();
             //designerView.WorkflowShellBarItemVisibility =
             //    ShellBarItemVisibility.Variables |
@@ -180,85 +183,101 @@ namespace WorkflowDesignerApp
 
         #endregion
 
+        private void BtnLoad_Click(object sender, RoutedEventArgs e)
+        {
+            var openFileDialog = new Microsoft.Win32.OpenFileDialog();
+            openFileDialog.Filter = "XAML File (*.xaml)|*.xaml|All files (*.*)|*.*";
+            if (openFileDialog.ShowDialog() == true)
+            {
+                try
+                {
+                    wd = new WorkflowDesigner();
+                    Grid.SetColumn(wd.View, 1);
+                    wd.Load(openFileDialog.FileName);
+                    grid1.Children.Add(wd.View);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }
+            }
+        }
+
+        private void BtnRun_Click(object sender, RoutedEventArgs e)
+        {
+            var openFileDialog = new Microsoft.Win32.OpenFileDialog();
+            openFileDialog.Filter = "XAML File (*.xaml)|*.xaml|All files (*.*)|*.*";
+            if (openFileDialog.ShowDialog() == true)
+            {
+                try
+                {
+                    ActivityBuilder ab;
+
+                    string readFileString = System.IO.File.ReadAllText(openFileDialog.FileName);
+                    ab = XamlServices.Load(
+                         ActivityXamlServices.CreateBuilderReader(
+                         new XamlXmlReader(new StringReader(readFileString)))) as ActivityBuilder;
+
+                    // XamlServices를 이용한 방법 - 이 경우 <, > 가 &lt, &gt로 치환되서 저장된다.
+//                  using (var stream = System.IO.File.OpenRead(OpenFileDialog.FileName))
+//                  {
+//                      ab = XamlServices.Load(
+//                           ActivityXamlServices.CreateBuilderReader(
+//                           new XamlXmlReader(new StringReader(XamlServices.Load(stream).ToString())))) as ActivityBuilder;
+//                  }
+
+                    // 워크플로 실행
+                    if (ab != null)
+                    {
+                        WorkflowApplication workflowApplication = null;
+                        try
+                        {
+                            workflowApplication = new WorkflowApplication(ab.Implementation);
+                            workflowApplication.Run();
+                            MessageBox.Show("Workflow completed.");
+                        }
+                        finally
+                        {
+                            if (workflowApplication != null)
+                            {
+                                workflowApplication.Abort();
+                            }
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Failed to load workflow.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }
+            }
+        }
+
         private void BtnSave_Click(object sender, RoutedEventArgs e)
         {
             var saveFileDialog = new Microsoft.Win32.SaveFileDialog();
             saveFileDialog.Filter = "XAML File (*.xaml)|*.xaml|All files (*.*)|*.*";
             if (saveFileDialog.ShowDialog() == true)
             {
-                wd.Save(saveFileDialog.FileName);
-            }
-        }
-
-        private void BtnRun_Click(object sender, RoutedEventArgs e)
-        {
-            var OpenFileDialog = new Microsoft.Win32.OpenFileDialog();
-            OpenFileDialog.Filter = "XAML File (*.xaml)|*.xaml|All files (*.*)|*.*";
-            if (OpenFileDialog.ShowDialog() == true)
-            {
-                ActivityBuilder activityBuilder = new ActivityBuilder();
-                Activity workflow;
-
-                using (var stream = System.IO.File.OpenRead(OpenFileDialog.FileName))
+                try
                 {
-                    if(XamlServices.Load(stream) is Activity act)
-                    {
-                        activityBuilder.Implementation = act;
-                    }
-                }
+                    wd.Flush();
+                    File.WriteAllText(saveFileDialog.FileName, wd.Text);
 
-                workflow = activityBuilder.Implementation;
-                if (workflow != null)
+                    // XamlServices를 이용한 방법 - 이 경우 <, > 가 &lt, &gt로 치환되서 저장된다.
+//                  StreamWriter sw = File.CreateText(saveFileDialog.FileName);
+//                  XamlWriter xw = ActivityXamlServices.CreateBuilderWriter(new XamlXmlWriter(sw, new XamlSchemaContext()));
+//                  wd.Flush();
+//                  XamlServices.Save(xw, wd.Text);
+//                  sw.Close();
+                }
+                catch (Exception ex)
                 {
-                    WorkflowApplication workflowApplication = null;
-                    try
-                    {
-                        workflowApplication = new WorkflowApplication(workflow);
-                        workflowApplication.Run();
-                        MessageBox.Show("Workflow completed.");
-                    }
-                    finally
-                    {
-                        if (workflowApplication != null)
-                        {
-                            workflowApplication.Abort();
-                        }
-                    }
+                    MessageBox.Show(ex.ToString());
                 }
-                else
-                {
-                    MessageBox.Show("Failed to load workflow.");
-                }
-
-                // XAML 파일에서 워크플로 로드
-                //Activity workflow;
-                //using (var stream = System.IO.File.OpenRead(OpenFileDialog.FileName))
-                //{
-                //    workflow = XamlServices.Load(stream) as Activity;
-                //}
-
-                // 워크플로 실행
-                //if (workflow != null)
-                //{
-                //    WorkflowApplication workflowApplication = null;
-                //    try
-                //    {
-                //        workflowApplication = new WorkflowApplication(workflow);
-                //        workflowApplication.Run();
-                //        MessageBox.Show("Workflow completed.");
-                //    }
-                //    finally
-                //    {
-                //        if (workflowApplication != null)
-                //        {
-                //            workflowApplication.Abort();
-                //        }
-                //    }
-                //}
-                //else
-                //{
-                //    MessageBox.Show("Failed to load workflow.");
-                //}
             }
         }
     }
