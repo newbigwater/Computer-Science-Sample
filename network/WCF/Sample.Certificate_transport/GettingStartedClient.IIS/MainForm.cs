@@ -19,6 +19,11 @@ namespace GettingStartedClient
         public MainForm()
         {
             InitializeComponent();
+
+            client.ClientCredentials.ClientCertificate.SetCertificate(
+                System.Security.Cryptography.X509Certificates.StoreLocation.LocalMachine,
+                System.Security.Cryptography.X509Certificates.StoreName.My,
+                System.Security.Cryptography.X509Certificates.X509FindType.FindByThumbprint, "4667E3F94B2087D948E180328B05BE90FE8F07F6");
         }
 
         private void btn_add_Click(object sender, EventArgs e)

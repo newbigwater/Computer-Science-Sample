@@ -3,12 +3,11 @@
   <wsp:Policy wsu:Id="WSHttpBinding_ICalculator_policy">
     <wsp:ExactlyOne>
       <wsp:All>
-        <http:NegotiateAuthentication xmlns:http="http://schemas.microsoft.com/ws/06/2004/policy/http" />
         <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
           <wsp:Policy>
             <sp:TransportToken>
               <wsp:Policy>
-                <sp:HttpsToken RequireClientCertificate="false" />
+                <sp:HttpsToken RequireClientCertificate="true" />
               </wsp:Policy>
             </sp:TransportToken>
             <sp:AlgorithmSuite>

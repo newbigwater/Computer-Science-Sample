@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.ServiceModel;
 using System.ServiceModel.Description;
 using System.ServiceModel.Security;
@@ -21,7 +22,7 @@ namespace GettingStartedHost
             {
                 WSHttpBinding binding = new WSHttpBinding();
                 binding.Security.Mode = SecurityMode.Transport;
-                binding.Security.Message.ClientCredentialType = MessageCredentialType.Certificate;
+                binding.Security.Transport.ClientCredentialType = HttpClientCredentialType.Certificate;
 
                 // Step 3: Add a service endpoint.
                 host.AddServiceEndpoint(typeof(ICalculator), binding, "");
