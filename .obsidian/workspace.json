@@ -4,16 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "096e5da15787aad0",
+        "id": "e3f31be9f4f5fa3c",
         "type": "tabs",
         "children": [
           {
-            "id": "b991fd5eb96924d7",
+            "id": "86eb6598b9746fdf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/EventLogTest/EventLog.md",
+                "file": "network/WCF/MS - 시작 자습서/06. TransportMode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "49d83b6a21f1f90e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebe735aba6e2b4ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Secure/New-SelfSignedCertificate/New-SelfSignedCertificate.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#VisualStudio2019",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 363.5,
+    "collapsed": true
   },
   "right": {
     "id": "1d8aaf53ddb5f905",
@@ -85,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/EventLogTest/EventLog.md",
+                "file": "network/WCF/MS - 시작 자습서/06. TransportMode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/EventLogTest/EventLog.md",
+                "file": "network/WCF/MS - 시작 자습서/06. TransportMode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/EventLogTest/EventLog.md"
+                "file": "network/WCF/MS - 시작 자습서/06. TransportMode.md"
               }
             }
           }
@@ -148,54 +167,54 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "b991fd5eb96924d7",
+  "active": "86eb6598b9746fdf",
   "lastOpenFiles": [
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.IIS/bin/Debug/GettingStartedClient.pdb",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.Host/bin/Debug/GettingStartedClient.pdb",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.IIS/bin/Debug/GettingStartedClient.exe",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.Host/bin/Debug/GettingStartedClient.exe",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.Host/obj/Debug/TempPE/Connected Services.CalculatorService.Reference.cs.dll",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.Host/Connected Services/CalculatorService/Reference.cs",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.Host/Connected Services/CalculatorService/Reference.svcmap",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.Host/Connected Services/CalculatorService/configuration.svcinfo",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.Host/Connected Services/CalculatorService/configuration91.svcinfo",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.Host/Connected Services/CalculatorService/CalculatorService1.xsd",
+    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.Host/Connected Services/CalculatorService/CalculatorService.disco",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422104631.png",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422104533.png",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422104426.png",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422104424.png",
+    "Secure/New-SelfSignedCertificate/New-SelfSignedCertificate.md",
+    "network/WCF/MS - 시작 자습서/06. TransportMode.md",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422103848.png",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422103627.png",
+    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422103418.png",
+    "network/WCF/MS - 시작 자습서/04. 기본 WCF 프로그래밍.md",
+    "network/WCF/MS - 시작 자습서/05. Net.TCP.md",
+    "Secure/Secure.md",
+    "UI/WPF/Windows WF/시작 자습서/01. Active Library.md",
+    "UI/WPF/Windows WF/시작 자습서/00. Environment.md",
+    "UI/WPF/Windows WF/Windows WF.md",
+    "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
+    "UI/WPF/Windows WF/01. Windows Workflow Foundation.md",
+    "UI/WPF/WPF.WorkflowDesigner/Workflow Designer.md",
+    "UI/UI.md",
+    "Programming/EventLogTest/EventLog.md",
     "UI/WPF/WPF.WorkflowDesigner/attachments/Pasted image 20240419144458.png",
     "Programming/Programming.md",
-    "UI/WPF/WPF.WorkflowDesigner/Workflow Designer.md",
-    "Programming/EventLogTest/EventLog.md",
     "Programming/EventLogTest/attachments/Pasted image 20240419155820.png",
     "Programming/EventLogTest/attachments/Pasted image 20240419155752.png",
-    "Programming/EventLogTest/attachments/Pasted image 20240419132122.png",
-    "Programming/EventLogTest/attachments/Pasted image 20240419132033.png",
-    "Programming/EventLogTest/attachments",
-    "Programming/EventLogTest/bin/Debug/EventLogTest.pdb",
-    "Programming/EventLogTest/bin/Debug/EventLogTest.exe",
-    "Programming/EventLogTest/2apyslxa.cvy~",
-    "Programming/EventLogTest/bin/Debug/EventLogTest.exe.config",
-    "Programming/EventLogTest/obj/Debug/EventLogTest.pdb",
-    "Programming/EventLogTest/obj/Debug/EventLogTest.exe",
-    "Programming/EventLogTest/0ikwwa4y.hmv~",
-    "Programming/EventLogTest/2gctn2rc.eaa~",
-    "Programming/EventLogTest/vtaduwlh.vvb~",
-    "Programming/Garbage Collection/attachments/Pasted image 20240418144349.png",
     "Programming/Garbage Collection/Garbage Collection.md",
-    "UI/WPF/WPF.WorkflowDesigner/attachments/Pasted image 20240418165052.png",
-    "UI/UI.md",
     "network/WCF/WCF.md",
     "network/WCF/MS - 시작 자습서/00. WCF 개념.md",
-    "network/WCF/MS - 시작 자습서/05. Net.TCP.md",
     "network/WCF/MS - 시작 자습서/01. WCF 서비스 계약 인터페이스 정의 및 구현.md",
     "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
     "network/WCF/MS - 시작 자습서/03. WCF 서비스 Client.md",
-    "network/WCF/MS - 시작 자습서/04. 기본 WCF 프로그래밍.md",
-    "UI/WPF/Windows WF/시작 자습서/01. Active Library.md",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240416105547.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240415164004.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240415163920.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240415163816.png",
     "UI/WPF/Windows WF/시작 자습서/시작 자습서.md",
-    "UI/WPF/Windows WF/Windows WF.md",
-    "UI/WPF/Windows WF/01. Windows Workflow Foundation.md",
-    "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
-    "UI/WPF/Windows WF/시작 자습서/00. Environment.md",
     "README.md",
     "UI/WPF/Windows WF/Windows Workflow Foundation/Workflow 구성 요소 간의 상호 작용.md",
     "UI/WPF/Windows WF/Windows Workflow Foundation/Workflow Runtime Engine.md",
     "Workflow Runtime Engine.md",
-    "Workflow.md",
-    "network/Network.md",
-    "Secure/Secure.md",
     "Computer Science/Programming/UI/C#/WPF/Prism/Prism Library를 사용하는 개발자를 위한 안내.canvas",
     "Untitled.canvas",
     "Brain/무제 파일.canvas"

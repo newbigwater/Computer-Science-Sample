@@ -73,10 +73,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="Connected Services\CalculatorService\CalculatorService.wsdl" />
-    <None Include="Connected Services\CalculatorService\mex.xsd">
+    <None Include="Connected Services\CalculatorService\CalculatorService.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\CalculatorService\mex1.xsd">
+    <None Include="Connected Services\CalculatorService\CalculatorService1.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Properties\Settings.settings">
@@ -97,6 +97,9 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\CalculatorService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\CalculatorService\CalculatorService.disco" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\CalculatorService\configuration91.svcinfo" />

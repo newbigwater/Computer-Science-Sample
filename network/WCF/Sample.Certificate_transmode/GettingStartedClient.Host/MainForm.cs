@@ -15,18 +15,11 @@ namespace GettingStartedClient
 {
     public partial class MainForm : Form
     {
-        private CalculatorClient client = null;
+        private CalculatorClient client = new CalculatorClient();
 
         public MainForm()
         {
             InitializeComponent();
-            client = new CalculatorClient();
-            //ServicePointManager.ServerCertificateValidationCallback += (se, cert, chain, sslerror) => { return true; };
-
-            client.ClientCredentials.ClientCertificate.SetCertificate(
-                System.Security.Cryptography.X509Certificates.StoreLocation.LocalMachine,
-                System.Security.Cryptography.X509Certificates.StoreName.My,
-                System.Security.Cryptography.X509Certificates.X509FindType.FindByThumbprint, "18B36B0F1956F01F8AE440D1B98AA73FC1742724");
         }
 
         private void btn_add_Click(object sender, EventArgs e)

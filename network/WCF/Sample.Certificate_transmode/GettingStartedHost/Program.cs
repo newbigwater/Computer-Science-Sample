@@ -15,10 +15,8 @@ namespace GettingStartedHost
         private static void Main(string[] args)
         {
             // Step 1: Create a URI to serve as the base address.
-            Uri baseAddress = new Uri("https://localhost:7070/GettingStarted/CalculatorService/mex");
-
-            ServiceHost selfHost = new ServiceHost(typeof(CalculatorService), baseAddress);
-
+            Uri baseAddress = new Uri($"https://localhost:8081/GettingStarted/CalculatorService");
+            ServiceHost host = new ServiceHost(typeof(CalculatorService), baseAddress);
             try
             {
                 WSHttpBinding binding = new WSHttpBinding();
@@ -26,33 +24,32 @@ namespace GettingStartedHost
                 binding.Security.Message.ClientCredentialType = MessageCredentialType.Certificate;
 
                 // Step 3: Add a service endpoint.
-                selfHost.AddServiceEndpoint(typeof(ICalculator), binding, "");
+                host.AddServiceEndpoint(typeof(ICalculator), binding, "");
 
                 // Step 4: Enable metadata exchange.
                 ServiceMetadataBehavior smb = new ServiceMetadataBehavior();
-                smb.HttpGetEnabled = true;
                 smb.HttpsGetEnabled = true;
-                selfHost.Description.Behaviors.Add(smb);
+                host.Description.Behaviors.Add(smb);
 
-                selfHost.Credentials.ServiceCertificate.SetCertificate(
+                host.Credentials.ServiceCertificate.SetCertificate(
                     System.Security.Cryptography.X509Certificates.StoreLocation.LocalMachine,
                     System.Security.Cryptography.X509Certificates.StoreName.My,
-                    System.Security.Cryptography.X509Certificates.X509FindType.FindByThumbprint, "18B36B0F1956F01F8AE440D1B98AA73FC1742724");
+                    System.Security.Cryptography.X509Certificates.X509FindType.FindByThumbprint, "592BC3217DAFF33EF614D8B91AA04A2FC655A2E9");
 
                 // Step 5: Start the service.
-                selfHost.Open();
+                host.Open();
                 Console.WriteLine("The service is ready.");
 
                 // Close the ServiceHost to stop the service.
                 Console.WriteLine("Press <Enter> to terminate the service.");
                 Console.WriteLine();
                 Console.ReadLine();
-                selfHost.Close();
+                host.Close();
             }
             catch (CommunicationException ce)
             {
                 Console.WriteLine("An exception occurred: {0}", ce.Message);
-                selfHost.Abort();
+                host.Abort();
             }
         }
     }
