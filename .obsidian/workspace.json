@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "network/WCF/MS - 시작 자습서/06. TransportMode.md",
+                "file": "Secure/New-SelfSignedCertificate/New-SelfSignedCertificate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "network/WCF/MS - 시작 자습서/06. TransportMode.md",
+                "file": "Secure/New-SelfSignedCertificate/New-SelfSignedCertificate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "network/WCF/MS - 시작 자습서/06. TransportMode.md"
+                "file": "Secure/New-SelfSignedCertificate/New-SelfSignedCertificate.md"
               }
             }
           }
@@ -167,25 +167,25 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "86eb6598b9746fdf",
+  "active": "ebe735aba6e2b4ba",
   "lastOpenFiles": [
-    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.IIS/bin/Debug/GettingStartedClient.pdb",
-    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.Host/bin/Debug/GettingStartedClient.pdb",
-    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.IIS/bin/Debug/GettingStartedClient.exe",
-    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.Host/bin/Debug/GettingStartedClient.exe",
-    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.Host/obj/Debug/TempPE/Connected Services.CalculatorService.Reference.cs.dll",
-    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.Host/Connected Services/CalculatorService/Reference.cs",
-    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.Host/Connected Services/CalculatorService/Reference.svcmap",
-    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.Host/Connected Services/CalculatorService/configuration.svcinfo",
-    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.Host/Connected Services/CalculatorService/configuration91.svcinfo",
-    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.Host/Connected Services/CalculatorService/CalculatorService1.xsd",
-    "network/WCF/Sample.Certificate_transmode/GettingStartedClient.Host/Connected Services/CalculatorService/CalculatorService.disco",
+    "network/WCF/Sample.Certificate_message/GettingStartedLib/obj/Debug/WcfConfigValidationData.tmp",
+    "network/WCF/Sample.Certificate_message/GettingStartedHost/bin/Debug/GettingStartedHost.pdb",
+    "network/WCF/Sample.Certificate_message/GettingStartedHost/bin/Debug/GettingStartedHost.exe",
+    "network/WCF/Sample.Certificate_message/GettingStartedHost/bin/Debug/GettingStartedHost.application",
+    "network/WCF/Sample.Certificate_message/GettingStartedHost/bin/Debug/GettingStartedHost.exe.manifest",
+    "network/WCF/Sample.Certificate_message/GettingStartedHost/bin/Debug/GettingStartedHost.exe.config",
+    "network/WCF/Sample.Certificate_message/GettingStartedHost/obj/Debug/GettingStartedHost.csproj.CopyComplete",
+    "network/WCF/Sample.Certificate_message/GettingStartedHost/bin/Debug/GettingStartedLib.pdb",
+    "network/WCF/Sample.Certificate_message/GettingStartedHost/bin/Debug/GettingStartedLib.dll",
+    "network/WCF/Sample.Certificate_message/GettingStartedHost/bin/Debug/GettingStartedLib.dll.config",
+    "network/WCF/Sample.Certificate_message/GettingStartedHost/obj/Debug/GettingStartedHost.application",
+    "network/WCF/MS - 시작 자습서/06. TransportMode.md",
     "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422104631.png",
     "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422104533.png",
     "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422104426.png",
     "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422104424.png",
     "Secure/New-SelfSignedCertificate/New-SelfSignedCertificate.md",
-    "network/WCF/MS - 시작 자습서/06. TransportMode.md",
     "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422103848.png",
     "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422103627.png",
     "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422103418.png",

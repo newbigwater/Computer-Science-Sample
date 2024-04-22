@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.ServiceModel;
 using System.ServiceModel.Description;
 using System.ServiceModel.Security;
@@ -15,12 +16,12 @@ namespace GettingStartedHost
         private static void Main(string[] args)
         {
             // Step 1: Create a URI to serve as the base address.
-            Uri baseAddress = new Uri($"https://localhost:8081/GettingStarted/CalculatorService");
+            Uri baseAddress = new Uri($"http://localhost:8081/GettingStarted/CalculatorService");
             ServiceHost host = new ServiceHost(typeof(CalculatorService), baseAddress);
             try
             {
                 WSHttpBinding binding = new WSHttpBinding();
-                binding.Security.Mode = SecurityMode.Transport;
+                binding.Security.Mode = SecurityMode.Message;
                 binding.Security.Message.ClientCredentialType = MessageCredentialType.Certificate;
 
                 // Step 3: Add a service endpoint.
@@ -28,7 +29,7 @@ namespace GettingStartedHost
 
                 // Step 4: Enable metadata exchange.
                 ServiceMetadataBehavior smb = new ServiceMetadataBehavior();
-                smb.HttpsGetEnabled = true;
+                smb.HttpGetEnabled = true;
                 host.Description.Behaviors.Add(smb);
 
                 host.Credentials.ServiceCertificate.SetCertificate(
