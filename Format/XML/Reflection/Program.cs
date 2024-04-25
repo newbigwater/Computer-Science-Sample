@@ -13,20 +13,49 @@ namespace Reflection
 {
     public class XmlParser
     {
-        public enum E_XML_ATTRIBUTE_TYPE
+        public enum E_FORMATTER_ELEMENT_TYPE
+        {
+            E_NONE  = -1,
+            E_ITEM  = 0,
+            E_LIST
+        }
+
+
+        public enum E_FORMATTER_ATTRIBUTE_TYPE
         {
             E_NONE      = -1,
             E_ATTRIBUTE = 0,
             E_CONTENT   ,
-            E_LIST      
+            E_LIST
+        }
+
+        [AttributeUsage(AttributeTargets.Class, Inherited = true)]
+        public abstract class FormatterElement : Attribute
+        {
+            public E_FORMATTER_ELEMENT_TYPE ElementType { get; set; } = E_FORMATTER_ELEMENT_TYPE.E_NONE;
+
+            protected FormatterElement(E_FORMATTER_ELEMENT_TYPE elementType)
+            {
+                ElementType = elementType;
+            }
+        }
+
+        public class FormatterItemElement : FormatterElement
+        {
+            public FormatterItemElement() : base(E_FORMATTER_ELEMENT_TYPE.E_ITEM) { }
+        }
+
+        public class FormatterListElement : FormatterElement
+        {
+            public FormatterListElement() : base(E_FORMATTER_ELEMENT_TYPE.E_LIST) { }
         }
 
         [AttributeUsage(AttributeTargets.Property, Inherited = true)]
         public abstract class FormatterAttribute : Attribute
         {
-            public E_XML_ATTRIBUTE_TYPE AttributeType { get; set; } = E_XML_ATTRIBUTE_TYPE.E_NONE;
+            public E_FORMATTER_ATTRIBUTE_TYPE AttributeType { get; set; } = E_FORMATTER_ATTRIBUTE_TYPE.E_NONE;
 
-            protected FormatterAttribute(E_XML_ATTRIBUTE_TYPE attributeType)
+            protected FormatterAttribute(E_FORMATTER_ATTRIBUTE_TYPE attributeType)
             {
                 AttributeType = attributeType;
             }
@@ -34,17 +63,17 @@ namespace Reflection
 
         public class SerializeAsAttribute : FormatterAttribute
         {
-            public SerializeAsAttribute() : base(E_XML_ATTRIBUTE_TYPE.E_ATTRIBUTE) { }
+            public SerializeAsAttribute() : base(E_FORMATTER_ATTRIBUTE_TYPE.E_ATTRIBUTE) { }
         }
 
         public class SerializeAsContent : FormatterAttribute
         {
-            public SerializeAsContent() : base(E_XML_ATTRIBUTE_TYPE.E_CONTENT) { }
+            public SerializeAsContent() : base(E_FORMATTER_ATTRIBUTE_TYPE.E_CONTENT) { }
         }
 
         public class SerializeAsList : FormatterAttribute
         {
-            public SerializeAsList() : base(E_XML_ATTRIBUTE_TYPE.E_LIST) { }
+            public SerializeAsList() : base(E_FORMATTER_ATTRIBUTE_TYPE.E_LIST) { }
         }
 
         public interface ISerializable
@@ -69,19 +98,16 @@ namespace Reflection
                         continue;
 
                     var attribute = propInfo.GetCustomAttribute<FormatterAttribute>();
-
                     if (attribute != null)
                     {
                         switch (attribute.AttributeType)
                         {
-                            case E_XML_ATTRIBUTE_TYPE.E_CONTENT:
+                            case E_FORMATTER_ATTRIBUTE_TYPE.E_CONTENT:
                                 if (value is string content)
-                                {
                                     element.SetValue(content);
-                                }
                                 break;
 
-                            case E_XML_ATTRIBUTE_TYPE.E_LIST:
+                            case E_FORMATTER_ATTRIBUTE_TYPE.E_LIST:
                                 if (value is IEnumerable list)
                                 {
                                     foreach (var item in list)
@@ -95,9 +121,7 @@ namespace Reflection
                                 }
                                 break;
 
-                            default:
-                                element.Add(new XAttribute(propInfo.Name, value));
-                                break;
+                            default: element.Add(new XAttribute(propInfo.Name, value)); break;
                         }
                     }
                     else
@@ -125,19 +149,18 @@ namespace Reflection
                 foreach (var propInfo in this.GetType().GetProperties())
                 {
                     var attribute = propInfo.GetCustomAttribute<FormatterAttribute>();
-
                     if (attribute != null)
                     {
                         switch (attribute.AttributeType)
                         {
-                            case E_XML_ATTRIBUTE_TYPE.E_CONTENT:
+                            case E_FORMATTER_ATTRIBUTE_TYPE.E_CONTENT:
                                 if (propInfo.PropertyType == typeof(string))
                                 {
                                     propInfo.SetValue(this, element.Value);
                                 }
                                 break;
 
-                            case E_XML_ATTRIBUTE_TYPE.E_LIST:
+                            case E_FORMATTER_ATTRIBUTE_TYPE.E_LIST:
                                 var listType = typeof(List<>).MakeGenericType(propInfo.PropertyType.GenericTypeArguments[0]);
                                 var listInstance = Activator.CreateInstance(listType);
 
