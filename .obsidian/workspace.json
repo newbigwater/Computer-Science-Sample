@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "04b3d7f39e9e9b7f",
+        "id": "366acd58967866d7",
         "type": "tabs",
         "children": [
           {
-            "id": "8896d658ee42ee6b",
+            "id": "7417a7a487739465",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -139,63 +131,62 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "8896d658ee42ee6b",
+  "active": "7417a7a487739465",
   "lastOpenFiles": [
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/bin/Debug/NumberGuessWorkflowActivities.pdb",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/bin/Debug/NumberGuessWorkflowActivities.dll",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/NumberGuessWorkflowActivities.csproj.CoreCompileInputs.cache",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/NumberGuessWorkflowActivities_SequentialNumberGuessWorkflow_CompiledExpressionRoot.cs",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/NumberGuessWorkflowActivities_Prompt_CompiledExpressionRoot.cs",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/NumberGuessWorkflowActivities.pdb",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/NumberGuessWorkflowActivities.dll",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/s11aqdpl.tmp_proj",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/NumberGuessWorkflowActivities.csproj.XamlPass2Flag.txt",
-    "UI/WPF/Windows WF/시작 자습서/Windows WF/NumberGuessWorkflowActivities/obj/Debug/NumberGuessWorkflowActivities.csproj.XamlGeneratedXamlFileListAbsolute.txt",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422104426.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422104424.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422103848.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422103627.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240422103418.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240418153226.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240418151531.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240418150425.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240418150309.png",
-    "network/WCF/MS - 시작 자습서/attachments/Pasted image 20240418145222.png",
+    "DesignPattern/Composite/Composite.md",
+    "DesignPattern/Composite/attachments/CompositePattern2.png",
+    "DesignPattern/Composite/attachments/CompositePattern1.png",
+    "DesignPattern/Composite/CompositePattern2.png",
+    "DesignPattern/Composite/CompositePattern1.png",
+    "DesignPattern/Composite/attachments",
+    "DesignPattern/DesignPattern.md",
+    "Secure/New-SelfSignedCertificate/New-SelfSignedCertificate.md",
+    "DesignPattern/Composite/새 텍스트 문서.txt",
+    "DesignPattern/Composite/obj/Debug/TempPE",
+    "DesignPattern/Composite/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+    "DesignPattern/Composite/obj/Debug/CompositePattern.exe",
+    "DesignPattern/Composite/obj/Debug/CompositePattern.pdb",
+    "DesignPattern/Composite/obj/Debug/CompositePattern.csproj.FileListAbsolute.txt",
+    "DesignPattern/Composite/obj/Debug/CompositePattern.csproj.CoreCompileInputs.cache",
+    "DesignPattern/Composite/obj/Debug/CompositePattern.csproj.AssemblyReference.cache",
+    "DesignPattern/Composite/bin/Debug/CompositePattern.exe.config",
+    "network/SOAP/Soap Simple Server/00. SOAP 개념.md",
+    "network/SOAP/SOAP.md",
+    "network/Network.md",
+    "network/WCF/MS - 시작 자습서/06. TransportMode.md",
+    "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240423152543.png",
+    "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240423152419.png",
+    "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240423152251.png",
+    "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240423151233.png",
+    "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240423150749.png",
+    "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240423150735.png",
     "UI/WPF/Windows WF/시작 자습서/03. Run a Workflow.md",
     "UI/WPF/Windows WF/시작 자습서/02.01. Workflow - Sequence.md",
-    "Programming/Programming.md",
-    "Programming/Garbage Collection/Garbage Collection.md",
-    "Programming/EventLogTest/EventLog.md",
-    "UI/WPF/Windows WF/01. Windows Workflow Foundation.md",
-    "UI/WPF/Windows WF/Windows WF.md",
-    "UI/WPF/Windows WF/시작 자습서/시작 자습서.md",
-    "UI/WPF/WPF.WorkflowDesigner/Workflow Designer.md",
-    "UI/WPF/Windows WF/시작 자습서/01. Active Library.md",
-    "UI/WPF/Windows WF/시작 자습서/00. Environment.md",
-    "README.md",
-    "network/Network.md",
+    "network/WCF/MS - 시작 자습서/01. WCF 서비스 계약 인터페이스 정의 및 구현.md",
+    "network/WCF/MS - 시작 자습서/03. WCF 서비스 Client.md",
     "network/WCF/WCF.md",
-    "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
-    "UI/UI.md",
-    "Secure/New-SelfSignedCertificate/New-SelfSignedCertificate.md",
-    "network/WCF/MS - 시작 자습서/06. TransportMode.md",
+    "network/WCF/MS - 시작 자습서/00. WCF 개념.md",
     "network/WCF/MS - 시작 자습서/04. 기본 WCF 프로그래밍.md",
     "network/WCF/MS - 시작 자습서/05. Net.TCP.md",
     "Secure/Secure.md",
-    "network/WCF/MS - 시작 자습서/00. WCF 개념.md",
-    "network/WCF/MS - 시작 자습서/01. WCF 서비스 계약 인터페이스 정의 및 구현.md",
-    "network/WCF/MS - 시작 자습서/02. WCF 서비스 호스팅.md",
-    "network/WCF/MS - 시작 자습서/03. WCF 서비스 Client.md",
+    "UI/WPF/Windows WF/시작 자습서/01. Active Library.md",
+    "UI/WPF/Windows WF/시작 자습서/00. Environment.md",
+    "UI/WPF/Windows WF/Windows WF.md",
+    "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
+    "UI/WPF/Windows WF/01. Windows Workflow Foundation.md",
+    "UI/WPF/WPF.WorkflowDesigner/Workflow Designer.md",
+    "UI/UI.md",
+    "Programming/EventLogTest/EventLog.md",
+    "Programming/Programming.md",
     "Computer Science/Programming/UI/C#/WPF/Prism/Prism Library를 사용하는 개발자를 위한 안내.canvas",
     "Untitled.canvas",
     "Brain/무제 파일.canvas"
