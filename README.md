@@ -10,4 +10,4 @@ Microsoft .Net Learn
 ### [Secure](Secure/Secure.md)
 ### [UI](UI/UI.md)
 
-### [DesignPattern](DesignPattern/DesignPattern.md)
+### [DesignPattern](Modeling/DesignPattern.md)
