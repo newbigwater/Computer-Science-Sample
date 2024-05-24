@@ -11,8 +11,12 @@
             "id": "7417a7a487739465",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Application/IDE/Visual Studio/Installer Projects/Installer Projects.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Application/IDE/Visual Studio/Installer Projects/Installer Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Application/IDE/Visual Studio/Installer Projects/Installer Projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Application/IDE/Visual Studio/Installer Projects/Installer Projects.md"
+              }
             }
           }
         ],
@@ -131,17 +139,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false
     }
   },
   "active": "7417a7a487739465",
   "lastOpenFiles": [
+    "Application/IDE/Visual Studio/IDE.md",
+    "README.md",
+    "Modeling/DesignPattern.md",
+    "network/Network.md",
+    "Programming/Programming.md",
     "DesignPattern/Prototype/bin/Debug/Prototype.pdb",
     "DesignPattern/Prototype/bin/Debug/Prototype.exe.config",
     "DesignPattern/Prototype/bin/Debug/Prototype.exe",
@@ -152,7 +165,6 @@
     "DesignPattern/Prototype/IPrototype.cs",
     "DesignPattern/Prototype/ConcretePrototype.cs",
     "DesignPattern/Prototype/App.config",
-    "DesignPattern/Prototype/Properties/AssemblyInfo.cs",
     "DesignPattern/Composite/Composite.md",
     "DesignPattern/Composite/attachments/CompositePattern2.png",
     "DesignPattern/Composite/attachments/CompositePattern1.png",
@@ -162,7 +174,6 @@
     "Secure/New-SelfSignedCertificate/New-SelfSignedCertificate.md",
     "network/SOAP/Soap Simple Server/00. SOAP 개념.md",
     "network/SOAP/SOAP.md",
-    "network/Network.md",
     "network/WCF/MS - 시작 자습서/06. TransportMode.md",
     "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240423152543.png",
     "UI/WPF/Windows WF/시작 자습서/attachments/Pasted image 20240423152419.png",
@@ -185,9 +196,6 @@
     "UI/WPF/Windows WF/02. Windows Workflow 아키텍처.md",
     "UI/WPF/Windows WF/01. Windows Workflow Foundation.md",
     "UI/WPF/WPF.WorkflowDesigner/Workflow Designer.md",
-    "UI/UI.md",
-    "Programming/EventLogTest/EventLog.md",
-    "Programming/Programming.md",
     "Computer Science/Programming/UI/C#/WPF/Prism/Prism Library를 사용하는 개발자를 위한 안내.canvas",
     "Untitled.canvas",
     "Brain/무제 파일.canvas"
