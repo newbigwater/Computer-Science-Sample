@@ -1,6 +1,6 @@
 #IDE #VisualStudio2019
 
-[IDE](../IDE.md)
+[..](../Visual%20Studio.md)
 
 > [!Quote]- Quote
 > https://learn.microsoft.com/ko-kr/windows/win32/msi/windows-installer-portal

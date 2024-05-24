@@ -1,9 +1,7 @@
-[README](../README.md)
+[..](../README.md)
 
 ## [Contents]
 
-### [SOAP]
-[SOAP](SOAP/SOAP.md)
+[IPC](IPC/IPC.md)
 
-### [WCF]
-[WCF](WCF/WCF.md)
+[RPC](RPC/RPC.md)

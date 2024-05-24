@@ -4,6 +4,9 @@
   - DE
 최종 편집 일시: Invalid date
 ---
+
+[..](../MySql.md)
+
 - Index
     
     01. Install

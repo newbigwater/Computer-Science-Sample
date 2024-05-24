@@ -1,4 +1,4 @@
-[DesignPattern](../DesignPattern.md)
+[..](../Modeling.md)
 
 > [!quote]-
 > https://mygumi.tistory.com/343

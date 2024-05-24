@@ -1,5 +1,7 @@
 #database #Oracle #19C #sqld #Windows #win11
 
+[..](Oracle.md)
+
 ## 01. Donwload
 
 [Download](https://www.oracle.com/kr/downloads/)
